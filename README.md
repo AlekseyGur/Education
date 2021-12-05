@@ -3,6 +3,6 @@
 Examples of code for educational purposes and some small demo projects.
 
 Contains:
-- SQL course (homeworks)
-  - lesson 2
-  - lesson 3
+- [SQL course](https://github.com/AlekseyGur/Education/tree/master/SQL)
+  - [lesson 2](https://github.com/AlekseyGur/Education/tree/master/SQL/lesson_2)
+  - [lesson 3](https://github.com/AlekseyGur/Education/tree/master/SQL/lesson_3)
