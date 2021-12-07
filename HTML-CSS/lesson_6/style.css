@@ -1,0 +1,313 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+body{
+   background: url(img/bg.jpg) 50% 0 repeat;
+   font-family: sans-serif;
+}
+
+/* хидер */
+.container .header{
+   opacity: 0.5;
+   background: url(img/bg_menu.png) 50% 0 repeat;
+   height: 83px;
+   margin-top: 30px;
+}
+.container .header .logo_area{
+   width: 169px;
+   padding-top: 15px;
+   float: left;
+}
+.container .header_content{
+   margin: 0 auto;
+   max-width: 1000px;
+   height: 30px;
+}
+.container .header_content .search{
+   float: right;
+   height: 38px;
+}
+.container .header_content .search input,
+.container .header_content .search button{
+   height: 38px;
+   margin-top: 20px;
+   vertical-align: top;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   border-radius: 0;
+   background-color: unset;
+   color: white;
+   padding-left: 10px;
+   border: 1px solid white;
+
+}
+.container .header_content .search button{
+   width: 51px;
+}
+
+.container .header_content .search  i.sc{
+   background: url(img/search.png) 50% 0 no-repeat;
+   width: 20px;
+   margin: 3px 0 0 -10px;
+   display: inline-block;
+   height: 20px;
+}
+
+.container .header_content ul.contacts{
+   text-align: center;
+   margin-left: 200px;
+   color: white;
+   padding-top: 25px;
+}
+.container .header_content ul.contacts li{
+   display: inline;
+   padding-left: 20px;
+}
+
+
+i.email{
+   background: url(img/email.png) 50% 0 no-repeat;
+   width: 40px;
+   height: 20px;
+   display: inline-block;
+   padding-right: 10px;
+   vertical-align: middle;
+}
+
+i.tel{
+   background: url(img/tel.png) 50% 0 no-repeat;
+   width: 30px;
+   height: 30px;
+   display: inline-block;
+   padding-right: 10px;
+   vertical-align: middle;
+}
+
+/* главное меню */
+ul.menu{
+   margin-top: 20px;
+   list-style-type: none;
+   text-align: center;
+   padding-bottom: 20px;
+   border-bottom: 1px solid white;
+}
+ul.menu li{
+   display: inline;
+   padding: 15px;
+}
+ul.menu a{
+   text-decoration: none;
+   color: #201d1d;
+}
+
+/* текст посередине страницы */
+.content{
+   text-align: center;
+   margin-top: 130px;
+   color: white;
+}
+.content span{
+   margin-bottom: 100px;
+}
+.content .seporator{
+   width: 70px;
+   height: 2px;
+   background-color: white;
+   margin: 20px auto 100px;
+}
+.content h1{
+   font-size: 300%;
+   margin-bottom: 80px;
+}
+
+/* иконки социальных сетей */
+.content ul.sn{
+   list-style-type: none;
+   text-align: center;
+}
+.content ul.sn li{
+   display: inline;
+   padding: 5px;
+}
+.content ul.sn a{
+   text-decoration: none;
+   width: 30px;
+   height: 30px;
+   display: inline-block;
+   vertical-align: middle;
+   border: 2px solid white;
+   border-radius: 50%;
+}
+.content ul.sn i{
+   width: 30px;
+   height: 30px;
+   display: inline-block;
+   margin-top: 7px;
+}
+i.fb{
+   background: url(img/facebook.png) 50% 0 no-repeat;
+}
+i.tw{
+   background: url(img/twitter.png) 50% 0 no-repeat;
+}
+i.rss{
+   background: url(img/rss.png) 50% 0 no-repeat;
+}
+i.vk{
+   background: url(img/vk.png) 50% 0 no-repeat;
+}
+
+
+
+/*
+body .container{
+   margin: 0 auto;
+   max-width: 900px;
+}
+
+p:first-letter{
+   font-size: 2em;
+   font-family: monospace;
+}
+
+.custom_table{
+   width: 100%;
+   height: 300px;
+}
+.custom_table td{
+   border: 1px solid;
+}
+
+хидер
+.container .header{
+   height: 80px;
+   background: url(../img/bg.png) 50% 0 repeat #f5f0ea;
+}
+.container .header img{
+   margin: 30px 0 0 30px;
+   height: 30px;
+}
+
+
+.container .footer {
+   height: 40px;
+}
+.container .footer p{
+   text-align: right;
+   margin: 10px 30px 0 0;
+}
+
+ul.menu{
+   float: right;
+   margin-top: 30px;
+   list-style-type: none;
+}
+ul.menu li{
+   display: inline;
+   padding-left: 20px;
+}
+ul.menu a{
+   color: #352097;
+   text-decoration: none;
+   font-size: 120%;
+   font-weight: bolder;
+}
+ul.menu a:hover{
+   color: green;
+}
+
+body.details{
+   background-color: #eaeaea;
+}
+body.details .content h2{
+   color: #000;
+   font-size: 18px;
+   font-weight: 400;
+}
+body.details .content .view img{
+   outline: solid #269191;
+   float: left;
+   margin: 0 30px 30px 0;
+}
+body.details .content .view img:hover{
+   outline: solid #26919100;
+}
+body.details .content .descr{
+   color: #484343;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   text-align; left;
+}
+body.details .content .descr_short{
+   color: #707070;
+   font-size: 14px;
+   font-style: italic;
+   line-height: 16px;
+}
+body.details .content ul.prop {
+   color: #507070;
+   font-size: 1.1em;
+   list-style: none;
+   padding-left: 0;
+}
+body.details .content ul.prop li {
+   position: relative;
+   padding-left: 30px;
+   margin-left: 20px;
+   margin-bottom: 10px;
+   background-image: url('../img/phone.jpg');
+   background-repeat: no-repeat;
+   background-position-x: 0;
+   background-size: contain;
+}
+body.details .content .prop_table td{
+   border: 1px solid;
+   padding: 20px;
+}
+body.details .content .buy_btn{
+   float: right;
+   padding: 20px;
+   font-size: 150%;
+   border: solid 1px orange;
+   background-color: #ff7f7f;
+   border-radius: 5px;
+   font-family: arial;
+   font-weight: bold;
+   cursor: pointer;
+}
+body.details .content .buy_btn:hover{
+   background-color: #ff5b5b;
+}
+body.details .content .buy_btn:active{
+   background-color: red;
+}
+body.catalog .content .items{
+   height: 200px;
+}
+body.catalog .content .items .item {
+   float: left;
+   text-align: center;
+   padding: 0 20px 20px 0;
+}
+
+body.contacts input {
+   width: 300px;
+   height: 120%;
+   font-size: 1.1em;
+   box-sizing: border-box;
+}
+body.contacts iframe {
+   width: 100%;
+}
+body.contacts input[type="text"]{
+   color: #12480d;
+   font-weight: bold;
+   text-transform: capitalize;
+}
+body.contacts input[name="email"]:hover{
+   color: #a85a2b;
+   background-color: #dfd9ff;
+}

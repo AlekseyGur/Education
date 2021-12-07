@@ -11,3 +11,4 @@ Contains:
   - [Урок 3. Основы языка оформления стилей документа CSS](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_3)
   - [Урок 4. Псевдоклассы и псевдоэлементы, табличная верстка](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_4)
   - [Урок 5. Формирование блочной модели, блочная верстка](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_5)
+  - [Урок 6. Работа с макетом дизайна в формате PSD](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_6)
