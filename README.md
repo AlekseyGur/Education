@@ -10,3 +10,4 @@ Contains:
   - [Урок 2. Основы языка разметки документов HTML](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_2)
   - [Урок 3. Основы языка оформления стилей документа CSS](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_3)
   - [Урок 4. Псевдоклассы и псевдоэлементы, табличная верстка](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_4)
+  - [Урок 5. Формирование блочной модели, блочная верстка](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_5)
