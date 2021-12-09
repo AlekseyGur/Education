@@ -13,3 +13,4 @@ Contains:
   - [Урок 4. Псевдоклассы и псевдоэлементы, табличная верстка](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_4)
   - [Урок 5. Формирование блочной модели, блочная верстка](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_5)
   - [Урок 6. Работа с макетом дизайна в формате PSD](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_6)
+  - [Урок 7. Разметка сайта и знакомство с Bootstrap](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_7)
