@@ -14,3 +14,5 @@ Contains:
   - [Урок 5. Формирование блочной модели, блочная верстка](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_5)
   - [Урок 6. Работа с макетом дизайна в формате PSD](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_6)
   - [Урок 7. Разметка сайта и знакомство с Bootstrap](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_7)
+  - [Урок 7. Стандарты web и вспомогательные инструменты](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_8)
+
