@@ -9,7 +9,7 @@ UPDATE users SET created_at = NOW(), updated_at = NOW();
 
 -- Задание 2
 -- преобразуем данные в нужный формат типа
-UPDATE users SET created_at = STR_TO_DATE(created_at, '%d.%m.%Y %h:%i'), updated_at = STR_TO_DATE(updated_at, '%d.%m.%Y %h:%i');
+UPDATE users SET created_at = STR_TO_DATE(created_at, '%d.%m.%Y %k:%i'), updated_at = STR_TO_DATE(updated_at, '%d.%m.%Y %k:%i');
 -- изменяем тип столбцов
 ALTER TABLE users MODIFY created_at DATETIME DEFAULT CURRENT_TIMESTAMP;
 ALTER TABLE users MODIFY updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
