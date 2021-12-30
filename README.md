@@ -12,6 +12,7 @@ Contains:
   - [Урок 7. Сложные запросы](https://github.com/AlekseyGur/Education/tree/master/SQL/lesson_7)
   - [Урок 8. Сложные запросы](https://github.com/AlekseyGur/Education/tree/master/SQL/lesson_8)
   - [Урок 9. Транзакции, переменные, представления. Администрирование. Хранимые процедуры и функции, триггеры](https://github.com/AlekseyGur/Education/tree/master/SQL/lesson_9)
+  - [Урок 10. Транзакции, переменные, представления. Администрирование. Хранимые процедуры и функции, триггеры](https://github.com/AlekseyGur/Education/tree/master/SQL/lesson_10)
 - [HTML/CSS](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS)
   - [Урок 2. Основы языка разметки документов HTML](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_2)
   - [Урок 3. Основы языка оформления стилей документа CSS](https://github.com/AlekseyGur/Education/tree/master/HTML-CSS/lesson_3)
