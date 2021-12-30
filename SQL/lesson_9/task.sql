@@ -133,7 +133,7 @@
    DELIMITER //
    DROP FUNCTION IF EXISTS hello//
    CREATE FUNCTION hello ()
-   RETURNS TEXT DETERMINISTIC
+   RETURNS TEXT NOT DETERMINISTIC
    BEGIN
       SET @hour := HOUR( NOW() );
       IF( 6 <= @hour and @hour < 12 ) THEN -- С 6:00 до 12:00
@@ -216,7 +216,13 @@
       
    END//
    DELIMITER ;
-   
+i := 0
+WHILE i < num - 2 DO
+  n3 := n1 + n2;
+  n1 := n2;
+  n2 := n3;
+  i = i + 1;
+END WHILE;
    -- проверка: 
       SELECT FIBONACCI(1) AS '1', 
          FIBONACCI(2) AS '2',
