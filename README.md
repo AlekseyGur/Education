@@ -5,6 +5,7 @@ Examples of code for educational purposes and some small demo projects:
 - [Python](https://github.com/AlekseyGur/Education/tree/master/Python)
   - [Урок 1. Знакомство с Python](https://github.com/AlekseyGur/Education/tree/master/Python/lesson_1)
   - [Урок 2. Встроенные типы и операции с ними](https://github.com/AlekseyGur/Education/tree/master/Python/lesson_2)
+  - [Урок 3. Функции](https://github.com/AlekseyGur/Education/tree/master/Python/lesson_3)
 - [SQL course](https://github.com/AlekseyGur/Education/tree/master/SQL)
   - [Урок 2. Управление БД. Язык запросов SQL](https://github.com/AlekseyGur/Education/tree/master/SQL/lesson_2)
   - [Урок 3. Введение в проектирование БД](https://github.com/AlekseyGur/Education/tree/master/SQL/lesson_3)
