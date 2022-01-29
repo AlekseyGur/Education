@@ -8,6 +8,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 3. Функции](https://github.com/AlekseyGur/Education/tree/master/Python/lesson_3)
   - [Урок 4. Полезные инструменты](https://github.com/AlekseyGur/Education/tree/master/Python/lesson_4)
   - [Урок 5. Работа с файлами](https://github.com/AlekseyGur/Education/tree/master/Python/lesson_5)
+  - [Урок 6. Объектно-ориентированное программирование](https://github.com/AlekseyGur/Education/tree/master/Python/lesson_6)
 - [SQL course](https://github.com/AlekseyGur/Education/tree/master/SQL)
   - [Урок 2. Управление БД. Язык запросов SQL](https://github.com/AlekseyGur/Education/tree/master/SQL/lesson_2)
   - [Урок 3. Введение в проектирование БД](https://github.com/AlekseyGur/Education/tree/master/SQL/lesson_3)
