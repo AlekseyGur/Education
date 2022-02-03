@@ -42,7 +42,7 @@ class Matrix:
             for i, row in enumerate(self.list_of_lists):
                 for j, val in enumerate(row):
                     a[i][j] = val + other.get(i,j, 0)
-                    
+
             return a
 
     def get(self, x: int = 0, y: int = 0, default: int = 0) -> int:
