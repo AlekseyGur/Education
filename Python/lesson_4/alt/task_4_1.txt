@@ -1,0 +1,8 @@
+$ pip freeze | grep requests
+requests==2.25.1
+$ python3 -m venv virt
+$ pip freeze | grep requests
+$ pip install requests==2.0.1
+$ pip freeze | grep requests
+requests==2.0.1
+$ deactivate
