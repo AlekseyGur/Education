@@ -2,8 +2,8 @@
 
 Examples of code for educational purposes and some small demo projects:
 
-- [Python (алгоритмы)](https://github.com/AlekseyGur/Education/tree/master/Python)
-  - [Урок 1. Введение в Алгоритмизацию и простые алгоритмы на Python](https://github.com/AlekseyGur/Education/tree/master/Python/lesson_1)
+- [Python (алгоритмы)](https://github.com/AlekseyGur/Education/tree/master/Python (algorithms))
+  - [Урок 1. Введение в Алгоритмизацию и простые алгоритмы на Python](https://github.com/AlekseyGur/Education/tree/master/Python (algorithms)/lesson_1)
 - [Python](https://github.com/AlekseyGur/Education/tree/master/Python)
   - [Урок 1. Знакомство с Python](https://github.com/AlekseyGur/Education/tree/master/Python/lesson_1)
   - [Урок 2. Встроенные типы и операции с ними](https://github.com/AlekseyGur/Education/tree/master/Python/lesson_2)
