@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-12T12:43:57.205Z" agent="5.0 (X11)" etag="-9bP4xGGY9KQLorLaYT5" version="16.5.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-12T12:47:00.155Z" agent="5.0 (X11)" etag="Ni76cJ7P7eQdOFytbPgr" version="16.5.6" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="task_1">
     <mxGraphModel dx="2189" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -452,7 +452,7 @@
         <mxCell id="jCCf1XxU5e_Y6kHbyhk0-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;" edge="1" parent="evRYA5h6PV4pE8Fj8O08-1" source="jCCf1XxU5e_Y6kHbyhk0-7" target="jCCf1XxU5e_Y6kHbyhk0-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jCCf1XxU5e_Y6kHbyhk0-7" value="&lt;div&gt;вичисляем промежуточные значения для: &lt;br&gt;&lt;/div&gt;&lt;div&gt;a_min, a_max&lt;/div&gt;&lt;div&gt;b_min, b_max&lt;/div&gt;&lt;div&gt;c_min, c_max&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="evRYA5h6PV4pE8Fj8O08-1">
+        <mxCell id="jCCf1XxU5e_Y6kHbyhk0-7" value="&lt;div&gt;генерируем значения в указанных пользователем границах: &lt;br&gt;&lt;/div&gt;&lt;div&gt;a_min, a_max&lt;/div&gt;&lt;div&gt;b_min, b_max&lt;/div&gt;&lt;div&gt;c_min, c_max&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="evRYA5h6PV4pE8Fj8O08-1">
           <mxGeometry x="160" y="200" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="jCCf1XxU5e_Y6kHbyhk0-8" value="конец" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;verticalAlign=middle;" vertex="1" parent="evRYA5h6PV4pE8Fj8O08-1">
