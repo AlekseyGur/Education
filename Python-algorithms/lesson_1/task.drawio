@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-12T13:01:48.219Z" agent="5.0 (X11)" etag="t2GuSjwzOEjRvTE7xebx" version="16.5.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-12T13:02:09.163Z" agent="5.0 (X11)" etag="Irbkwz_paS0xyeY8Ce79" version="16.5.6" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="task_1">
     <mxGraphModel dx="2189" dy="808" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -463,7 +463,7 @@
         <mxCell id="jCCf1XxU5e_Y6kHbyhk0-8" value="конец" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;verticalAlign=middle;" vertex="1" parent="evRYA5h6PV4pE8Fj8O08-1">
           <mxGeometry x="200" y="440" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jCCf1XxU5e_Y6kHbyhk0-12" value="Вычисляем порядковый номер букв c_min, c_max в алфавите. Генерируем случайную букву между этими номерами" style="whiteSpace=wrap;html=1;" vertex="1" parent="evRYA5h6PV4pE8Fj8O08-1">
+        <mxCell id="jCCf1XxU5e_Y6kHbyhk0-12" value="Вычисляем порядковый номер букв c_min, c_max в алфавите. Генерируем случайную букву, используя эти номера" style="whiteSpace=wrap;html=1;" vertex="1" parent="evRYA5h6PV4pE8Fj8O08-1">
           <mxGeometry x="160" y="320" width="200" height="90" as="geometry" />
         </mxCell>
       </root>
