@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-15T15:48:38.394Z" agent="5.0 (X11)" etag="iWCUpCJ0w72wf9c8zUSP" version="16.5.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-02-15T15:54:51.073Z" agent="5.0 (X11)" etag="Cn_V0DUo7dMhKSTrN-Et" version="16.5.6" type="github" pages="4">
   <diagram id="BqtSVfZS2E_lewIMDipD" name="task_2">
     <mxGraphModel dx="1135" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -275,7 +275,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1o6sS3pVP5fFCQI43QVc-20" value="s = (-1) * s / 2^i" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1o6sS3pVP5fFCQI43QVc-1">
+        <mxCell id="1o6sS3pVP5fFCQI43QVc-20" value="&lt;div&gt;s += (-1)^i / 2^i&lt;/div&gt;&lt;div&gt;i += 1&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1o6sS3pVP5fFCQI43QVc-1">
           <mxGeometry x="280" y="350" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
