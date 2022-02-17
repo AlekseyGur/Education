@@ -8,6 +8,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 1. Введение в Алгоритмизацию и простые алгоритмы на Python](https://github.com/AlekseyGur/Education/tree/master/Python-algorithms/lesson_1)
   - [Урок 2. Циклы, рекурсия, функции](https://github.com/AlekseyGur/Education/tree/master/Python-algorithms/lesson_2)
   - [Урок 3. Массивы](https://github.com/AlekseyGur/Education/tree/master/Python-algorithms/lesson_3)
+  - [Урок 4. Эмпирическая оценка алгоритмов](https://github.com/AlekseyGur/Education/tree/master/Python-algorithms/lesson_4)
 - [Python](https://github.com/AlekseyGur/Education/tree/master/Python)
   - [Урок 1. Знакомство с Python](https://github.com/AlekseyGur/Education/tree/master/Python/lesson_1)
   - [Урок 2. Встроенные типы и операции с ними](https://github.com/AlekseyGur/Education/tree/master/Python/lesson_2)
