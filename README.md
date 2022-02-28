@@ -21,6 +21,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 6. Работа с файлами](https://github.com/AlekseyGur/Education/tree/master/Python-alt/lesson_6)
   - [Урок 7. Работа с файловой системой. Исключения в Python](https://github.com/AlekseyGur/Education/tree/master/Python-alt/lesson_7)
   - [Урок 8. Регулярные выражения и декораторы в Python](https://github.com/AlekseyGur/Education/tree/master/Python-alt/lesson_8)
+  - [Урок 9. Объектно-ориентированное программирование](https://github.com/AlekseyGur/Education/tree/master/Python-alt/lesson_9)
 - [Python](https://github.com/AlekseyGur/Education/tree/master/Python)
   - [Урок 1. Знакомство с Python](https://github.com/AlekseyGur/Education/tree/master/Python/lesson_1)
   - [Урок 2. Встроенные типы и операции с ними](https://github.com/AlekseyGur/Education/tree/master/Python/lesson_2)
