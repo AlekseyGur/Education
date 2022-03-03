@@ -65,7 +65,7 @@ class Matrix:
         self.matrix = matrix
 
         check_len = [len(row) for row in matrix]
-        if max(check_len) != min(check_len):
+        if max(check_len) != min(check_len) or len(matrix) < 2:
             raise ValueError('fail initialization matrix')
 
     def __str__(self):

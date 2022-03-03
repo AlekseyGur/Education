@@ -91,38 +91,34 @@ class Cell:
     def __init__(self, cells: int):
         self.cells = cells
 
-    def __add__(self, other):
-        if isinstance(other, Cell):
-            return Cell(self.cells + other.cells)
-        else:
+    def _isinstance(self, inst):
+        if not isinstance(inst, Cell):
             raise TypeError('действие допустимо только для экземпляров того же класса')
+        else:
+            return True
+
+    def __add__(self, other):
+        if self._isinstance(other):
+            return Cell(self.cells + other.cells)
 
     def __sub__(self, other):
-        if isinstance(other, Cell):
-            if self.cells < other.cells:
+        if self._isinstance(other):
+            if self.cells <= other.cells:
                 raise ValueError('недопустимая операция')
             else:
                 return Cell(self.cells - other.cells)
-        else:
-            raise TypeError('действие допустимо только для экземпляров того же класса')
 
     def __mul__(self, other):
-        if isinstance(other, Cell):
+        if self._isinstance(other):
             return Cell(self.cells * other.cells)
-        else:
-            raise TypeError('действие допустимо только для экземпляров того же класса')
 
     def __truediv__(self, other):
-        if isinstance(other, Cell):
+        if self._isinstance(other):
             return Cell(int(self.cells / other.cells))
-        else:
-            raise TypeError('действие допустимо только для экземпляров того же класса')
 
     def __floordiv__(self, other):
-        if isinstance(other, Cell):
+        if self._isinstance(other):
             return Cell(int(self.cells // other.cells))
-        else:
-            raise TypeError('действие допустимо только для экземпляров того же класса')
 
     def __str__(self):
         return 'Ячейки клетки: \n' + str(self.make_order())

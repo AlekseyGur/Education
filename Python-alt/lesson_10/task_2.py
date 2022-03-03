@@ -38,21 +38,21 @@ class Clothes(ABC):
 
 
 class Coat(Clothes):
-    def __init__(self, V: float = 0):
-        self.V = V
+    def __init__(self, size: float = 0):
+        self.size = size
 
     @property
     def calculate(self) -> float:
-        return round(self.V / 6.5 + 0.5, 2)
+        return round(self.size / 6.5 + 0.5, 2)
 
 
 class Costume(Clothes):
-    def __init__(self, H: float = 0):
-        self.H = H
+    def __init__(self, height: float = 0):
+        self.height = height
 
     @property
     def calculate(self) -> float:
-        return round(self.H * 2 + 0.3, 2)
+        return round(self.height * 2 + 0.3, 2)
 
 
 if __name__ == '__main__':
