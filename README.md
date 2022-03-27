@@ -2,6 +2,8 @@
 
 Examples of code for educational purposes and some small demo projects:
 
+- [Методы сбора и обработки данных](https://github.com/AlekseyGur/Education/tree/master/Crawling)
+  - [Урок 1. Основы клиент-серверного взаимодействия. Работа с API](https://github.com/AlekseyGur/Education/tree/master/Crawling/Two-lesson_1)
 - [Математика](https://github.com/AlekseyGur/Education/tree/master/Math)
   - [Две коробки и шары](https://github.com/AlekseyGur/Education/tree/master/Math/Two-boxes)
 - [Python (алгоритмы)](https://github.com/AlekseyGur/Education/tree/master/Python-algorithms)
@@ -12,6 +14,8 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 5. Коллекции. Модуль Collections](https://github.com/AlekseyGur/Education/tree/master/Python-algorithms/lesson_5)
   - [Урок 6. Работа с динамической памятью](https://github.com/AlekseyGur/Education/tree/master/Python-algorithms/lesson_6)
   - [Урок 7. Алгоритмы сортировки](https://github.com/AlekseyGur/Education/tree/master/Python-algorithms/lesson_7)
+  - [Урок 8. Графы](https://github.com/AlekseyGur/Education/tree/master/Python-algorithms/lesson_8)
+  - [Урок 9. Алгоритмы и структуры данных на Python](https://github.com/AlekseyGur/Education/tree/master/Python-algorithms/lesson_9)
 - [Python (другой курс)](https://github.com/AlekseyGur/Education/tree/master/Python)
   - [Урок 1. Знакомство с Python](https://github.com/AlekseyGur/Education/tree/master/Python-alt/lesson_1)
   - [Урок 2. Встроенные типы и операции с ними](https://github.com/AlekseyGur/Education/tree/master/Python-alt/lesson_2)
