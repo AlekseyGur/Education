@@ -3,7 +3,8 @@
 Examples of code for educational purposes and some small demo projects:
 
 - [Методы сбора и обработки данных](https://github.com/AlekseyGur/Education/tree/master/Crawling)
-  - [Урок 1. Основы клиент-серверного взаимодействия. Работа с API](https://github.com/AlekseyGur/Education/tree/master/Crawling/Two-lesson_1)
+  - [Урок 1. Основы клиент-серверного взаимодействия. Работа с API](https://github.com/AlekseyGur/Education/tree/master/Crawling/lesson_1)
+  - [Урок 2. Парсинг HTML. Библиотека Beautiful soup](https://github.com/AlekseyGur/Education/tree/master/Crawling/lesson_2)
 - [Математика](https://github.com/AlekseyGur/Education/tree/master/Math)
   - [Две коробки и шары](https://github.com/AlekseyGur/Education/tree/master/Math/Two-boxes)
 - [Python (алгоритмы)](https://github.com/AlekseyGur/Education/tree/master/Python-algorithms)
