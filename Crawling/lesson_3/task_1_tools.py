@@ -52,6 +52,10 @@ def get_page_dom(url: str = ''):
 
         try:
             dom = bs(response.text, 'html.parser')
+
+            if 'stormwall' in response.text:
+                print('Сработал анти-DDoS на странице: ' + url)
+
             return dom
         except:
             print('Ошибка преобразования страницы в dom')
@@ -59,8 +63,15 @@ def get_page_dom(url: str = ''):
     return None
 
 
-def inc_url_page_num(url: str = '') -> str:
-    """Увеличение счётчика пагинации в URL адресе страницы"""
+def inc_url_page_num(url: str = '', num: int = 1, site: str = '') -> str:
+    """Увеличение счётчика пагинации в URL адресе страницы
+    url - строка, URL с GET параметрами
+    num - целое число, количество страниц для добавления
+    site - строка, символьный код сайта
+    """
+    if not site:
+        site = get_site_code(url)
+
     base, params_str = url.split('?')
     params_vals = params_str.split('&')
 
@@ -70,9 +81,9 @@ def inc_url_page_num(url: str = '') -> str:
         params[key] = val
 
     if site == 'hh':
-        params['page'] = int(params['page']) + 1
+        params['page'] = int(params['page']) + num
     elif site == 'superjob':
-        params['page'] = int(params['page']) + 1
+        params['page'] = int(params['page']) + num
 
     return base + '?' + '&'.join(f'{key}={val}' for key, val in params.items())
 

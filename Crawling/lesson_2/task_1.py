@@ -35,8 +35,8 @@ for url in urls:
 
     # Первый раз сканируем, чтобы получить пагинацию
     dom = get_page_dom(url)  # dom BeautifulSoup с данными страницы сайта
-    vacancies.extend(get_vacancies(dom, site)) # добавляем вакансии в список
-    num_pages_max = get_page_max_num(dom, site) # макс. количество страниц в выборке
+    vacancies.extend(get_vacancies(dom, site))  # добавляем вакансии в список
+    num_pages_max = get_page_max_num(dom, site)  # макс. количество страниц в выборке
 
     # Если запрашивается больше одной страницы и есть пагинация, то повторяем
     # действие для нужного количества страниц
