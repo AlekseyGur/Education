@@ -32,8 +32,7 @@ elem.send_keys("study.ai_172@mail.ru")
 elem.send_keys(Keys.ENTER)
 
 # пароль
-elem = wait.until(EC.presence_of_element_located((By.NAME, 'password')))
-sleep(1)  # не знаю как по-другому сделать
+elem = wait.until(EC.element_to_be_clickable((By.NAME, 'password')))
 elem.send_keys("NextPassword172#")
 elem.send_keys(Keys.ENTER)
 
