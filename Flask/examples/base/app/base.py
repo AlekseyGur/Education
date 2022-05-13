@@ -23,7 +23,7 @@ api_base_url = '/api/v1.0/elements'
 @app.route('/', methods=['GET'])
 def get_index():
     return f'''<h1>Простейший REST API</h1>
-    <table class="data">
+    <table>
         <tr>
             <th>HTTP Method</th>
             <th>URI</th>
@@ -31,33 +31,33 @@ def get_index():
         </tr>
         <tr>
             <td>GET</td>
-            <td>/api/v1.0/elements</td>
+            <td>{api_base_url}</td>
             <td>Retrieve list of elements</td>
         </tr>
         <tr>
             <td>GET</td>
-            <td>/api/v1.0/elements/[element_id]</td>
+            <td>{api_base_url}/[element_id]</td>
             <td>Retrieve an element</td>
         </tr>
         <tr>
             <td>POST</td>
-            <td>/api/v1.0/elements</td>
+            <td>{api_base_url}</td>
             <td>Create a new element</td>
         </tr>
         <tr>
             <td>PUT</td>
-            <td>/api/v1.0/elements/[element_id]</td>
+            <td>{api_base_url}/[element_id]</td>
             <td>Update an existing element</td>
         </tr>
         <tr>
             <td>DELETE</td>
-            <td>/api/v1.0/elements/[element_id]</td>
+            <td>{api_base_url}/[element_id]</td>
             <td>Delete an element</td>
         </tr>
     </table>
 
-    <a href="/api/v1.0/elements">Список дел</a><br>
-    <a href="/api/v1.0/elements/1">Первое дело</a>
+    <a href="{api_base_url}">Список дел</a><br>
+    <a href="{api_base_url}/1">Первое дело</a>
     <hr>
     <h2>Тест системы</h2>
     {'Статус валидаторов: ОК' if validate_clear() else 'Не работает валидатор'}

@@ -2,6 +2,11 @@
 
 Examples of code for educational purposes and some small demo projects:
 
+
+- [ETL](https://github.com/AlekseyGur/Education/tree/master/ETL)
+  - [Урок 2. Архитектура хранилищ](https://github.com/AlekseyGur/Education/tree/master/ETL/blog/lesson_2)
+- [Kaggle](https://github.com/AlekseyGur/Education/tree/master/Kaggle)
+  - [IH Hotel Booking - предсказание отмены бронирования номеров в отеле](https://github.com/AlekseyGur/Education/tree/master/Kaggle/ih-hotel-booking)
 - [Методы сбора и обработки данных](https://github.com/AlekseyGur/Education/tree/master/Crawling)
   - [Урок 1. Основы клиент-серверного взаимодействия. Работа с API](https://github.com/AlekseyGur/Education/tree/master/Crawling/lesson_1)
   - [Урок 2. Парсинг HTML. Библиотека Beautiful soup](https://github.com/AlekseyGur/Education/tree/master/Crawling/lesson_2)
@@ -10,6 +15,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 5. Selenium в Python](https://github.com/AlekseyGur/Education/tree/master/Crawling/lesson_5)
   - [Урок 6. Фреймворк Scrapy. Знакомство](https://github.com/AlekseyGur/Education/tree/master/Crawling/lesson_6)
   - [Урок 7. Фреймворк Scrapy. Скачивание файлов и фото](https://github.com/AlekseyGur/Education/tree/master/Crawling/lesson_7)
+  - [Урок 8. Фреймворк Scrapy. Реализация механизмов клиент-серверного взаимодействия](https://github.com/AlekseyGur/Education/tree/master/Crawling/lesson_8)
 - [Flask](https://github.com/AlekseyGur/Education/tree/master/Flask)
   - [Создание блога](https://github.com/AlekseyGur/Education/tree/master/Flask/blog)
     - [Урок 1. Привет, Мир!](https://github.com/AlekseyGur/Education/tree/master/Flask/blog/lesson_1)

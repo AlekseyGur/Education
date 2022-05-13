@@ -1,0 +1,10 @@
+fast-ml==3.68
+Flask==2.1.1
+waitress==2.1.1
+xgboost==1.1.1
+scikit-learn==0.23.1
+scipy==1.5.4
+sklearn==0.0
+pandas==1.0.5
+Jinja2==3.1.1
+numpy==1.19.1
