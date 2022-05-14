@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 from glob import glob as list_files_in_dir
-from os.path import getctime, abspath
+from os.path import getctime, abspath, exists
 from datetime import datetime
 from xgboost import XGBClassifier
 from fast_ml.feature_engineering import FeatureEngineering_DateTime
@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 import re
 
 
-MODELS_DIR = 'models'
+MODELS_DIR = 'models'  # Папка для сохранения моделей
 
 # Доделать кеширование данных:
 # MODELS_INFO = {}  # данные о моделях, чтобы не читать с диска каждый раз
@@ -75,6 +75,9 @@ class Model():
         :param columns: колонки в наборе данных при создании модели
         :return: ошибки при сохранении или ОК
         """
+        if not exists(MODELS_DIR):
+            os.makedirs(directory)
+      
         now = datetime.now().strftime('%Y-%m-%d_%H:%M:%S')
         path = f'{MODELS_DIR}/{prcnt}_{now}'
         status = 'OK'
