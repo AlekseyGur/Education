@@ -14577,7 +14577,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[133]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[205]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">psycopg2</span>
@@ -14591,7 +14591,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 <span class="c1"># получим все названия таблиц, чтобы скопировать из них информаицю</span>
 <span class="k">with</span> <span class="n">psycopg2</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">conn_string_from</span><span class="p">)</span> <span class="k">as</span> <span class="n">conn</span><span class="p">,</span> <span class="n">conn</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span> <span class="k">as</span> <span class="n">cursor</span><span class="p">:</span>
-    <span class="n">query</span> <span class="o">=</span> <span class="s1">&#39;SELECT relname, n_live_tup FROM pg_stat_user_tables ORDER BY n_live_tup DESC;&#39;</span>
+    <span class="n">query</span> <span class="o">=</span> <span class="s1">&#39;SELECT relname, n_tup_ins - n_tup_del FROM pg_stat_user_tables;&#39;</span>
     <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">query</span><span class="p">)</span>
     <span class="n">tbls</span> <span class="o">=</span> <span class="n">cursor</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
 
@@ -14613,6 +14613,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <span class="s2">                            WHERE c.relname ~ &#39;^(</span><span class="si">{</span><span class="n">table_name</span><span class="si">}</span><span class="s2">)$&#39; </span><span class="se">\</span>
 <span class="s2">                                AND pg_catalog.pg_table_is_visible(c.oid) </span><span class="se">\</span>
 <span class="s2">                        );&quot;</span>
+        
         <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">query</span><span class="p">)</span>
         <span class="n">clmns</span> <span class="o">=</span> <span class="n">cursor</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
         
@@ -14629,7 +14630,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[109]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[172]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># выгружаем данные из старой базы в файлы</span>
@@ -14682,7 +14683,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[110]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[206]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># загружаем данные из файлов в новую базу</span>
@@ -14692,19 +14693,19 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <span class="k">for</span> <span class="n">table</span><span class="p">,</span> <span class="n">data</span> <span class="ow">in</span> <span class="n">tables</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
         <span class="c1"># сначала удалим таблицы с подобными именами, которые уже могут там быть</span>
         <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;DROP TABLE IF EXISTS </span><span class="si">{</span><span class="n">table</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">conn</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span> <span class="c1"># комитим транзакцию</span>
 
         <span class="c1"># cоздадим таблицы с идентичными полями</span>
         <span class="n">fields</span> <span class="o">=</span> <span class="p">[]</span>
         <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">typ</span> <span class="ow">in</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;coulumns&#39;</span><span class="p">]:</span> <span class="c1"># тут можно изменить типы колонок</span>
-            <span class="c1"># if &#39;character&#39; in typ:</span>
-                <span class="c1"># typ = &#39;varchar(1)&#39;</span>
+            <span class="c1"># if &#39;character varying&#39; in typ:</span>
+                <span class="c1"># typ = &#39;character varying(2000)&#39;</span>
             
             <span class="n">fields</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s1"> </span><span class="si">{</span><span class="n">typ</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
 
         <span class="n">fileds</span> <span class="o">=</span> <span class="s1">&#39;, &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">fields</span><span class="p">)</span>
         <span class="n">query</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;CREATE TABLE </span><span class="si">{</span><span class="n">table</span><span class="si">}</span><span class="s2"> (</span><span class="si">{</span><span class="n">fileds</span><span class="si">}</span><span class="s2">)&quot;</span>
         <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">query</span><span class="p">)</span> <span class="c1"># выполнение запроса</span>
-    
         <span class="n">conn</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span> <span class="c1"># комитим транзакцию</span>
 
     <span class="c1"># выполним копирование данных</span>
@@ -14713,7 +14714,6 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
             <span class="n">q</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&quot;COPY </span><span class="si">{</span><span class="n">table</span><span class="si">}</span><span class="s2"> from STDIN WITH DELIMITER &#39;,&#39; CSV HEADER;&quot;</span>
             <span class="n">cursor</span><span class="o">.</span><span class="n">copy_expert</span><span class="p">(</span><span class="n">q</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span>
             <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;В новую базу загружен файл </span><span class="si">{</span><span class="n">table</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
-
         <span class="n">conn</span><span class="o">.</span><span class="n">commit</span><span class="p">()</span> <span class="c1"># комитим транзакцию</span>
 </pre></div>
 
@@ -14736,14 +14736,14 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>&#39;В новую базу загружен файл lineitem&#39;
-&#39;В новую базу загружен файл orders&#39;
+<pre>&#39;В новую базу загружен файл part&#39;
+&#39;В новую базу загружен файл lineitem&#39;
 &#39;В новую базу загружен файл partsupp&#39;
-&#39;В новую базу загружен файл part&#39;
-&#39;В новую базу загружен файл customer&#39;
-&#39;В новую базу загружен файл supplier&#39;
-&#39;В новую базу загружен файл nation&#39;
 &#39;В новую базу загружен файл region&#39;
+&#39;В новую базу загружен файл orders&#39;
+&#39;В новую базу загружен файл supplier&#39;
+&#39;В новую базу загружен файл customer&#39;
+&#39;В новую базу загружен файл nation&#39;
 </pre>
 </div>
 </div>
@@ -14757,24 +14757,27 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[137]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[211]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># проверяем как данные сохранились из одной базы в другую, подсчитывая количество строк до и после переноса</span>
 <span class="k">with</span> <span class="n">psycopg2</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span><span class="n">conn_string_to</span><span class="p">)</span> <span class="k">as</span> <span class="n">conn</span><span class="p">,</span> <span class="n">conn</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span> <span class="k">as</span> <span class="n">cursor</span><span class="p">:</span>
-    <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;SELECT relname, n_live_tup FROM pg_stat_user_tables ORDER BY n_live_tup DESC;&#39;</span><span class="p">)</span>
+    <span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;SELECT relname, n_tup_ins - n_tup_del FROM pg_stat_user_tables;&#39;</span><span class="p">)</span>
     <span class="n">tables_new</span> <span class="o">=</span> <span class="p">{</span><span class="n">name</span><span class="p">:</span> <span class="n">rows_cnt</span> <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">rows_cnt</span> <span class="ow">in</span> <span class="n">cursor</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()}</span>
     <span class="n">tables_old</span> <span class="o">=</span> <span class="p">{</span><span class="n">name</span><span class="p">:</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;records_count&#39;</span><span class="p">]</span> <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">data</span> <span class="ow">in</span> <span class="n">tables</span><span class="o">.</span><span class="n">items</span><span class="p">()}</span>
     <span class="c1"># сравниваем со старыми значениями</span>
     <span class="n">bad_items</span> <span class="o">=</span> <span class="p">[</span><span class="n">k</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">tables_old</span> <span class="k">if</span> <span class="n">k</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">tables_new</span> <span class="ow">or</span> <span class="n">tables_old</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="o">!=</span> <span class="n">tables_new</span><span class="p">[</span><span class="n">k</span><span class="p">]]</span>
     <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">bad_items</span><span class="p">):</span>
         <span class="k">for</span> <span class="n">tbl</span> <span class="ow">in</span> <span class="n">bad_items</span><span class="p">:</span>
-            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;В таблице </span><span class="si">{</span><span class="n">tbl</span><span class="si">}</span><span class="s1"> должно быть </span><span class="si">{</span><span class="n">tables_old</span><span class="p">[</span><span class="n">tbl</span><span class="p">]</span><span class="si">}</span><span class="s1"> записей, а перенеслось только </span><span class="si">{</span><span class="n">tables_new</span><span class="p">[</span><span class="n">tbl</span><span class="p">]</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;В таблице </span><span class="si">{</span><span class="n">tbl</span><span class="si">}</span><span class="s1"> должно быть </span><span class="si">{</span><span class="n">tables_old</span><span class="p">[</span><span class="n">tbl</span><span class="p">]</span><span class="si">}</span><span class="s1"> записей, а перенеслось </span><span class="si">{</span><span class="n">tables_new</span><span class="p">[</span><span class="n">tbl</span><span class="p">]</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
             <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Исходная таблица содержит следующие колонки:&#39;</span><span class="p">)</span>
             <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">typ</span> <span class="ow">in</span> <span class="n">tables</span><span class="p">[</span><span class="n">tbl</span><span class="p">][</span><span class="s2">&quot;coulumns&quot;</span><span class="p">]:</span>
                 <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s1"> </span><span class="si">{</span><span class="n">typ</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
     <span class="k">else</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Все данные успешно перенесены&#39;</span><span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Все данные успешно перенесены!&#39;</span><span class="p">)</span>
+        
+        <span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">cnt</span> <span class="ow">in</span> <span class="n">tables_new</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;В таблице </span><span class="si">{</span><span class="n">name</span><span class="si">}</span><span class="s1"> находится </span><span class="si">{</span><span class="n">cnt</span><span class="si">}</span><span class="s1"> записей&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -14796,24 +14799,15 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>&#39;В таблице lineitem должно быть 6000925 записей, а перенеслось только 6000505&#39;
-&#39;Исходная таблица содержит следующие колонки:&#39;
-&#39;l_orderkey integer&#39;
-&#39;l_partkey integer&#39;
-&#39;l_suppkey integer&#39;
-&#39;l_linenumber integer&#39;
-&#39;l_quantity numeric(15,2)&#39;
-&#39;l_extendedprice numeric(15,2)&#39;
-&#39;l_discount numeric(15,2)&#39;
-&#39;l_tax numeric(15,2)&#39;
-&#39;l_returnflag character(1)&#39;
-&#39;l_linestatus character(1)&#39;
-&#39;l_shipdate date&#39;
-&#39;l_commitdate date&#39;
-&#39;l_receiptdate date&#39;
-&#39;l_shipinstruct character(25)&#39;
-&#39;l_shipmode character(10)&#39;
-&#39;l_comment character varying(44)&#39;
+<pre>&#39;Все данные успешно перенесены!&#39;
+&#39;В таблице nation находится 25 записей&#39;
+&#39;В таблице lineitem находится 6001215 записей&#39;
+&#39;В таблице part находится 200000 записей&#39;
+&#39;В таблице supplier находится 10000 записей&#39;
+&#39;В таблице orders находится 1500000 записей&#39;
+&#39;В таблице region находится 5 записей&#39;
+&#39;В таблице partsupp находится 800000 записей&#39;
+&#39;В таблице customer находится 150001 записей&#39;
 </pre>
 </div>
 </div>
