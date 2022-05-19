@@ -7,6 +7,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 3. Проектирование хранилища. Часть 1](https://github.com/AlekseyGur/Education/tree/master/ETL/lesson_3)
   - [Урок 4. Проектирование хранилища. Часть 2](https://github.com/AlekseyGur/Education/tree/master/ETL/lesson_4)
   - [Урок 5. Создание ETL процесса. Часть 1](https://github.com/AlekseyGur/Education/tree/master/ETL/lesson_5)
+  - [Урок 6. Создание ETL процесса. Часть 2](https://github.com/AlekseyGur/Education/tree/master/ETL/lesson_6)
 - [Kaggle](https://github.com/AlekseyGur/Education/tree/master/Kaggle)
   - [IH Hotel Booking - предсказание отмены бронирования номеров в отеле](https://github.com/AlekseyGur/Education/tree/master/Kaggle/ih-hotel-booking)
 - [Методы сбора и обработки данных](https://github.com/AlekseyGur/Education/tree/master/Crawling)
