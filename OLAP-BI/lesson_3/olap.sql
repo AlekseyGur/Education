@@ -9,31 +9,35 @@ CREATE TABLE adventureworks_olap.FctSales (
    SalesOrderID INT,
    OrderQty INT,
    ModifiedDate DATETIME,
-   UnitPrice FLOAT
-);
+   UnitPrice FLOAT,
+   PRIMARY KEY (ProductID, SalesOrderID)
+) ENGINE=InnoDB;
 
 CREATE TABLE adventureworks_olap.DmnOrder (
    SalesOrderID INT,
    SalesOrderNumber VARCHAR(25),
    AccountNumber VARCHAR(15),
-   CreditCardID INT
-);
+   CreditCardID INT,
+   CONSTRAINT adventureworks_olap_DmnOrder_fk FOREIGN KEY (SalesOrderID) REFERENCES adventureworks.salesorderheader(SalesOrderID)
+) ENGINE=InnoDB;
 
 CREATE TABLE adventureworks_olap.DmnDate (
    SalesOrderID INT,
    OrderDate TIMESTAMP,
    ModifiedDate DATETIME,
    ShipDate DATETIME,
-   DueDate DATETIME
-);
+   DueDate DATETIME,
+   CONSTRAINT adventureworks_olap_DmnDate_fk FOREIGN KEY (SalesOrderID) REFERENCES adventureworks.salesorderheader(SalesOrderID)
+) ENGINE=InnoDB;
 
 CREATE TABLE adventureworks_olap.DmnProduct (
    ProductID INT,
    Name VARCHAR(50),
    Color VARCHAR(15),
    Size VARCHAR(5),
-   Weight DECIMAL(8,2)
-);
+   Weight DECIMAL(8,2),
+   CONSTRAINT adventureworks_olap_DmnProduct_fk FOREIGN KEY (ProductID) REFERENCES adventureworks.product(ProductID)
+) ENGINE=InnoDB;
 
 
 -- заполнение таблиц
