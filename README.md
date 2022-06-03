@@ -3,6 +3,8 @@
 Examples of code for educational purposes and some small demo projects:
 
 
+- [Многомерный анализ данных: OLAP и BI](https://github.com/AlekseyGur/Education/tree/master/ETL)
+  - [Урок 2. Многомерная модель данных](https://github.com/AlekseyGur/Education/tree/master/ETL/lesson_3)
 - [ETL](https://github.com/AlekseyGur/Education/tree/master/ETL)
   - [Урок 3. Проектирование хранилища. Часть 1](https://github.com/AlekseyGur/Education/tree/master/ETL/lesson_3)
   - [Урок 4. Проектирование хранилища. Часть 2](https://github.com/AlekseyGur/Education/tree/master/ETL/lesson_4)
