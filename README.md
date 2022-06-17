@@ -3,6 +3,8 @@
 Examples of code for educational purposes and some small demo projects:
 
 
+- [Библиотеки Python для Data Science: Numpy, Matplotlib, Scikit-learn](https://github.com/AlekseyGur/Education/tree/master/Python-DataScience-tools)
+  - [Урок 2. Вычисления с помощью Numpy. Работа с данными в Pandas](https://github.com/AlekseyGur/Education/tree/master/Python-DataScience-tools/lesson_2)
 - [Многомерный анализ данных: OLAP и BI](https://github.com/AlekseyGur/Education/tree/master/OLAP-BI)
   - [Урок 2. Многомерная модель данных](https://github.com/AlekseyGur/Education/tree/master/OLAP-BI/lesson_2)
   - [Урок 3. OLAP: подход и разновидности реализаций](https://github.com/AlekseyGur/Education/tree/master/OLAP-BI/lesson_3)
@@ -15,6 +17,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 7. Управление качеством данных](https://github.com/AlekseyGur/Education/tree/master/ETL/lesson_7)
   - [Урок 8. Курсовой проект](https://github.com/AlekseyGur/Education/tree/master/ETL/lesson_8)
 - [Kaggle](https://github.com/AlekseyGur/Education/tree/master/Kaggle)
+  - [Plant pathology 2021 - Определение заболеваний деревьев по изображениям листьев](https://github.com/AlekseyGur/Education/tree/master/Kaggle/plant-pathology-2021)
   - [IH Hotel Booking - предсказание отмены бронирования номеров в отеле](https://github.com/AlekseyGur/Education/tree/master/Kaggle/ih-hotel-booking)
 - [Методы сбора и обработки данных](https://github.com/AlekseyGur/Education/tree/master/Crawling)
   - [Урок 1. Основы клиент-серверного взаимодействия. Работа с API](https://github.com/AlekseyGur/Education/tree/master/Crawling/lesson_1)
