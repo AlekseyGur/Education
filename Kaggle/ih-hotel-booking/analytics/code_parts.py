@@ -24,7 +24,6 @@ from string import ascii_uppercase
 # pd.set_option('display.max_rows', None)
 
 # https://www.kaggle.com/code/alexgur/ih-hotel-booking
-# https://www.kaggle.com/competitions/ih-hotel-booking
 # https://www.kaggle.com/code/gauravduttakiit/hotel-cancellation-prediction-lazypredict/notebook
 
 def make_mi_scores_multithread(X, y, discrete_features='auto'):
@@ -60,7 +59,7 @@ def make_mi_scores_multithread(X, y, discrete_features='auto'):
     results = pd.concat(results)  # объединяем результаты
     results = pd.DataFrame(results)
 
-    assert len(X) == len(results), 'При определении корелляции параметров с' \
+    assert len(X) == len(results), 'При определении коррелляции параметров с' \
                                    'результатом была утеряна часть данных!'
     return results
 #
