@@ -3,8 +3,8 @@
 Examples of code for educational purposes and some small demo projects:
 
 
-- [Библиотеки Python для Data Science: Numpy, Matplotlib, Scikit-learn](https://github.com/AlekseyGur/Education/tree/master/Python-DataScience-tools)
-  - [Урок 2. Вычисления с помощью Numpy. Работа с данными в Pandas](https://github.com/AlekseyGur/Education/tree/master/Python-DataScience-tools/lesson_2)
+- [Data Science: Numpy, Matplotlib, Scikit-learn](https://github.com/AlekseyGur/Education/tree/master/DataScience)
+  - [Урок 2. Вычисления с помощью Numpy. Работа с данными в Pandas](https://github.com/AlekseyGur/Education/tree/master/DataScience/lesson_2)
 - [Многомерный анализ данных: OLAP и BI](https://github.com/AlekseyGur/Education/tree/master/OLAP-BI)
   - [Урок 2. Многомерная модель данных](https://github.com/AlekseyGur/Education/tree/master/OLAP-BI/lesson_2)
   - [Урок 3. OLAP: подход и разновидности реализаций](https://github.com/AlekseyGur/Education/tree/master/OLAP-BI/lesson_3)
