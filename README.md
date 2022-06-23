@@ -3,6 +3,8 @@
 Examples of code for educational purposes and some small demo projects:
 
 
+- [Введение в noSQL баз данных. Redis, MongoDB, Tarantool](https://github.com/AlekseyGur/Education/tree/master/noSQL)
+  - [Урок 2. Redis](https://github.com/AlekseyGur/Education/tree/master/noSQL/lesson_2)
 - [Data Science tools: Numpy, Matplotlib, Scikit-learn](https://github.com/AlekseyGur/Education/tree/master/DataScience-tools)
   - [Урок 2. Вычисления с помощью Numpy. Работа с данными в Pandas](https://github.com/AlekseyGur/Education/tree/master/DataScience-tools/lesson_2)
 - [Многомерный анализ данных: OLAP и BI](https://github.com/AlekseyGur/Education/tree/master/OLAP-BI)
