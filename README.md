@@ -3,6 +3,10 @@
 Examples of code for educational purposes and some small demo projects:
 
 
+- [C](https://github.com/AlekseyGur/Education/tree/master/C)
+  - [Урок 1. Введение. Зачем нужен С и как им пользоваться](https://github.com/AlekseyGur/Education/tree/master/C/lesson_1)
+  - [Урок 2. Базовые понятия. Как всё устроено, и что с этим делать](https://github.com/AlekseyGur/Education/tree/master/C/lesson_2)
+  - [Урок 5. Циклы. Как придать уникальности простым вещам](https://github.com/AlekseyGur/Education/tree/master/C/lesson_5)
 - [Введение в noSQL баз данных. Redis, MongoDB, Tarantool](https://github.com/AlekseyGur/Education/tree/master/noSQL)
   - [Урок 2. Redis](https://github.com/AlekseyGur/Education/tree/master/noSQL/lesson_2)
 - [Data Science tools: Numpy, Matplotlib, Scikit-learn](https://github.com/AlekseyGur/Education/tree/master/DataScience-tools)
