@@ -3,11 +3,20 @@
 Examples of code for educational purposes and some small demo projects:
 
 
+- [Теория вероятностей и математическая статистика](https://github.com/AlekseyGur/Education/tree/master/Statistics)
+  - [Урок 1. Случайные события. Условная вероятность. Формула Байеса. Независимые испытания](https://github.com/AlekseyGur/Education/tree/master/noSQL/lesson_1)
+  - [Урок 2. Дискретные случайные величины. Закон распределения вероятностей. Биномиальный закон распределения. Распределение Пуассона](https://github.com/AlekseyGur/Education/tree/master/noSQL/lesson_2)
+  - [Урок 3. Описательная статистика. Качественные и количественные характеристики популяции. Графическое представление данных](https://github.com/AlekseyGur/Education/tree/master/noSQL/lesson_3)
+  - [Урок 4. Непрерывные случайные величины. Функция распределения и плотность распределения вероятностей. Центральная предельная теорема](https://github.com/AlekseyGur/Education/tree/master/noSQL/lesson_4)
+  - [Урок 5. Проверка статистических гипотез. P-значения. Доверительные интервалы. AB-тестирование](https://github.com/AlekseyGur/Education/tree/master/noSQL/lesson_5)
+  - [Урок 6. Взаимосвязь величин. Параметрические и непараметрические показатели корреляции. Корреляционный анализ](https://github.com/AlekseyGur/Education/tree/master/noSQL/lesson_6)
 - [C](https://github.com/AlekseyGur/Education/tree/master/C)
   - [Урок 1. Введение. Зачем нужен С и как им пользоваться](https://github.com/AlekseyGur/Education/tree/master/C/lesson_1)
   - [Урок 2. Базовые понятия. Как всё устроено, и что с этим делать](https://github.com/AlekseyGur/Education/tree/master/C/lesson_2)
   - [Урок 5. Циклы. Как придать уникальности простым вещам](https://github.com/AlekseyGur/Education/tree/master/C/lesson_5)
   - [Урок 6. Функции. Пишем универсальные фрагменты кода](https://github.com/AlekseyGur/Education/tree/master/C/lesson_6)
+  - [Урок 10. Массивы. Почти безграничные возможности организации данных](https://github.com/AlekseyGur/Education/tree/master/C/lesson_10)
+  - [Урок 14. Динамическое выделение памяти](https://github.com/AlekseyGur/Education/tree/master/C/lesson_14)
 - [Введение в noSQL баз данных. Redis, MongoDB, Tarantool](https://github.com/AlekseyGur/Education/tree/master/noSQL)
   - [Урок 2. Redis](https://github.com/AlekseyGur/Education/tree/master/noSQL/lesson_2)
 - [Data Science tools: Numpy, Matplotlib, Scikit-learn](https://github.com/AlekseyGur/Education/tree/master/DataScience-tools)
