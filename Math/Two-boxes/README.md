@@ -106,12 +106,32 @@ res = [''.join(i) for i in product(*res)]
 # оставляем только те сочетания, где "+" и "-" столько, сколько нужно
 res = [i for i in res if i.count('+') == sum_white]
 
-print(f'Всего комбинаций: {len(res)}. "+" - вероятность получения белого шара, "-" вероятность получения чёрного:')
-for row in res:
-    for i in row:
-        print(f'{i:>2}', end = '')
-    print()
+print(f'Всего комбинаций: {len(res)}.')
+print()
 
+# вывод шапки таблицы возможных комбинаций
+seporator = '-'
+print('| ', end = '')
+for idx, box in boxes.items():
+    seporator += '-' * box['pick'] * 4
+    for i in range(box['pick']):
+        print(f'{idx+1}', end = ' | ')
+print('- ящики')
+print(seporator)
+
+# вывод таблицы возможных комбинаций
+for num, row in enumerate(res):
+    print('|', end = '')
+    for i in row:
+        print(f'{i:>2}', end = ' |')
+    if not num:
+        print(f' - {sum_white} белых, остальные чёрные')
+    else:
+        print()
+
+print()
+print('"+" - белый шар')
+print('"-" чёрный шар')
 
 # в полученной таблице преобразуем "+" и "-" в дроби вероятностей
 probability = []
@@ -137,16 +157,24 @@ for row in res:
         tmp_row.extend(tmp)
     probability.append(tmp_row)
 
-
-print('Комбинации в вероятностях:')
-for row in probability:
-    for i in row:
-        print(f'{i:>6}', end = '')
-    print()
-
 # перемножаем все вероятности в строках и суммируем результаты строк
-probability = sum([eval('*'.join(i)) for i in probability])
-print('Общая вероятность:', probability)
+probability_sum = sum([eval('*'.join(i)) for i in probability])
+
+print()
+print('Комбинации в вероятностях:')
+for num, row in enumerate(probability):
+    for numi, i in enumerate(row):
+        if numi:
+            print(' * ', end = '')
+        print(f'{i:>5}', end = ' ')
+    
+    if num != len(probability) - 1:
+        print(' + ')
+    else:
+        print(f' = {probability_sum}')
+
+print()
+print(f'Общая вероятность = {round(probability_sum * 100, 2)} %')
 
 ```
 
