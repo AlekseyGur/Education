@@ -39,51 +39,6 @@ ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 STORED AS TEXTFILE;
 INSERT OVERWRITE TABLE mydb.txt SELECT * FROM base;
 
--- parquet UNCOMPRESSED
-DROP TABLE IF EXISTS mydb.pq;
-SET hive.exec.compress.output=false;
-SET parquet.compression=UNCOMPRESSED;
-CREATE TABLE mydb.pq
-(
-Dispatching_base_num string,
-Pickup_date timestamp,
-Affiliated_base_num string,
-locationID int
-)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
-STORED AS PARQUET;
-INSERT OVERWRITE TABLE mydb.pq SELECT * FROM base;
-
--- parquet SNAPPY
-DROP TABLE IF EXISTS mydb.pq_sn;
-SET hive.exec.compress.output=true;
-SET parquet.compression=SNAPPY;
-CREATE TABLE mydb.pq_sn
-(
-Dispatching_base_num string,
-Pickup_date timestamp,
-Affiliated_base_num string,
-locationID int
-)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
-STORED AS PARQUET;
-INSERT OVERWRITE TABLE mydb.pq_sn SELECT * FROM base;
-
--- parquet GZIP
-DROP TABLE IF EXISTS mydb.pq_gz;
-SET hive.exec.compress.output=true;
-SET parquet.compression=GZIP;
-CREATE TABLE mydb.pq_gz
-(
-Dispatching_base_num string,
-Pickup_date timestamp,
-Affiliated_base_num string,
-locationID int
-)
-ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
-STORED AS PARQUET;
-INSERT OVERWRITE TABLE mydb.pq_gz SELECT * FROM base;
-
 -- SequenceFile
 DROP TABLE IF EXISTS mydb.sqf; 
 CREATE TABLE mydb.sqf
@@ -137,6 +92,51 @@ locationID int
 ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 STORED AS AVRO;
 INSERT OVERWRITE TABLE mydb.avro SELECT * FROM base;
+
+-- parquet UNCOMPRESSED
+DROP TABLE IF EXISTS mydb.pq;
+SET hive.exec.compress.output=false;
+SET parquet.compression=UNCOMPRESSED;
+CREATE TABLE mydb.pq
+(
+Dispatching_base_num string,
+Pickup_date timestamp,
+Affiliated_base_num string,
+locationID int
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+STORED AS PARQUET;
+INSERT OVERWRITE TABLE mydb.pq SELECT * FROM base;
+
+-- parquet SNAPPY
+DROP TABLE IF EXISTS mydb.pq_sn;
+SET hive.exec.compress.output=true;
+SET parquet.compression=SNAPPY;
+CREATE TABLE mydb.pq_sn
+(
+Dispatching_base_num string,
+Pickup_date timestamp,
+Affiliated_base_num string,
+locationID int
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+STORED AS PARQUET;
+INSERT OVERWRITE TABLE mydb.pq_sn SELECT * FROM base;
+
+-- parquet GZIP
+DROP TABLE IF EXISTS mydb.pq_gz;
+SET hive.exec.compress.output=true;
+SET parquet.compression=GZIP;
+CREATE TABLE mydb.pq_gz
+(
+Dispatching_base_num string,
+Pickup_date timestamp,
+Affiliated_base_num string,
+locationID int
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+STORED AS PARQUET;
+INSERT OVERWRITE TABLE mydb.pq_gz SELECT * FROM base;
 
 
 SET silent=false; -- чтобы получать скорость выполнения запросов
