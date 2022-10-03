@@ -4,7 +4,8 @@ Examples of code for educational purposes and some small demo projects:
 
 
 - [BigData. Фреймворк Apache Spark](https://github.com/AlekseyGur/Education/tree/master/Spark)
-  - [Урок 2. Операции с данными: агрегаты, джойны. Оптимизация SQL-запросов](https://github.com/AlekseyGur/Education/tree/master/Spark/lesson_1)
+  - [Урок 2. Операции с данными: агрегаты, джойны. Оптимизация SQL-запросов](https://github.com/AlekseyGur/Education/tree/master/Spark/lesson_2)
+  - [Урок 3. Типы данных в Spark. Коллекции как объекты DataFrame. User-Defined Functions](https://github.com/AlekseyGur/Education/tree/master/Spark/lesson_3)
 - [Java](https://github.com/AlekseyGur/Education/tree/master/Java)
   - [Урок 1. Простейшие программы, пакеты, компиляция](https://github.com/AlekseyGur/Education/tree/master/Java/1-HelloWorld)
 - [BigData. Введение в экосистему Hadoop](https://github.com/AlekseyGur/Education/tree/master/Hadoop)
