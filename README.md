@@ -72,7 +72,7 @@ Examples of code for educational purposes and some small demo projects:
     - [Простейший REST API](https://github.com/AlekseyGur/Education/tree/master/Flask/examples/base/)
 - [Математика](https://github.com/AlekseyGur/Education/tree/master/Math)
   - [Две коробки и шары](https://github.com/AlekseyGur/Education/tree/master/Math/Two-boxes)
-  - [Определение значимых различий в А/Б тестировании](https://github.com/AlekseyGur/Education/tree/master/Math/AB-test)
+  - [Проведение А/Б тестирования](https://github.com/AlekseyGur/Education/tree/master/Math/AB-test)
 - [Python (алгоритмы)](https://github.com/AlekseyGur/Education/tree/master/Python-algorithms)
   - [Урок 1. Введение в Алгоритмизацию и простые алгоритмы на Python](https://github.com/AlekseyGur/Education/tree/master/Python-algorithms/lesson_1)
   - [Урок 2. Циклы, рекурсия, функции](https://github.com/AlekseyGur/Education/tree/master/Python-algorithms/lesson_2)
