@@ -24,6 +24,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 5. Проверка статистических гипотез. P-значения. Доверительные интервалы. AB-тестирование](https://github.com/AlekseyGur/Education/tree/master/Statistics/lesson_5)
   - [Урок 6. Взаимосвязь величин. Параметрические и непараметрические показатели корреляции. Корреляционный анализ](https://github.com/AlekseyGur/Education/tree/master/Statistics/lesson_6)
   - [Урок 7. Многомерный статистический анализ. Линейная регрессия](https://github.com/AlekseyGur/Education/tree/master/Statistics/lesson_7)
+  - [Урок 8. Дисперсионный анализ. Логистическая регрессия](https://github.com/AlekseyGur/Education/tree/master/Statistics/lesson_8)
 - [C](https://github.com/AlekseyGur/Education/tree/master/C)
   - [Урок 1. Введение. Зачем нужен С и как им пользоваться](https://github.com/AlekseyGur/Education/tree/master/C/lesson_1)
   - [Урок 2. Базовые понятия. Как всё устроено, и что с этим делать](https://github.com/AlekseyGur/Education/tree/master/C/lesson_2)
