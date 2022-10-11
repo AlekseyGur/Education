@@ -73,7 +73,7 @@ F_crit = stats.f.ppf(1-alpha, k1, k2)
 # смотрим был ли преодолён пороговый размер выборки для этих показателей.
 # Если нет, то результаты могут быть неточными
 
-mde=y1_mean-y2_mean
+mde = abs(y1_mean - y2_mean)
 
 # standard normal distribution to determine z-values
 standard_norm = stats.norm(0, 1)
@@ -82,10 +82,10 @@ standard_norm = stats.norm(0, 1)
 Z_beta = standard_norm.ppf(power)
 
 # find Z_alpha
-Z_alpha = standard_norm.ppf(1-alpha/2)
+Z_alpha = standard_norm.ppf(1 - alpha/2)
 
 # average of probabilities from both groups
-pooled_prob = (total_conversion + total_conversion+mde) / 2
+pooled_prob = (total_conversion + total_conversion + mde) / 2
 
 min_N = (2 * pooled_prob * (1 - pooled_prob) * (Z_beta + Z_alpha)**2
          / mde**2)
