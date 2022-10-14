@@ -3,6 +3,8 @@
 Examples of code for educational purposes and some small demo projects:
 
 
+- [Линейная алгебра](https://github.com/AlekseyGur/Education/tree/master/Linear-algebra)
+  - [Урок 1. Линейное пространство](https://github.com/AlekseyGur/Education/tree/master/Linear-algebra/lesson_1)
 - [BigData. Фреймворк Apache Spark](https://github.com/AlekseyGur/Education/tree/master/Spark)
   - [Урок 2. Операции с данными: агрегаты, джойны. Оптимизация SQL-запросов](https://github.com/AlekseyGur/Education/tree/master/Spark/lesson_2)
   - [Урок 3. Типы данных в Spark. Коллекции как объекты DataFrame. User-Defined Functions](https://github.com/AlekseyGur/Education/tree/master/Spark/lesson_3)
