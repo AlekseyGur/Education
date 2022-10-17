@@ -5,6 +5,7 @@ Examples of code for educational purposes and some small demo projects:
 
 - [Настройка потоков данных. Apache Airflow](https://github.com/AlekseyGur/Education/tree/master/Airflow)
   - [Урок 2. Установка Airflow. Создание и основные параметры DAG](https://github.com/AlekseyGur/Education/tree/master/Airflow/lesson_2)
+  - [Урок 3. Разработка потоков данных](https://github.com/AlekseyGur/Education/tree/master/Airflow/lesson_3)
 - [Линейная алгебра](https://github.com/AlekseyGur/Education/tree/master/Linear-algebra)
   - [Урок 1. Линейное пространство](https://github.com/AlekseyGur/Education/tree/master/Linear-algebra/lesson_1)
 - [BigData. Фреймворк Apache Spark](https://github.com/AlekseyGur/Education/tree/master/Spark)
