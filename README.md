@@ -10,6 +10,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 3. Разработка потоков данных](https://github.com/AlekseyGur/Education/tree/master/Airflow/lesson_3)
 - [Линейная алгебра](https://github.com/AlekseyGur/Education/tree/master/Linear-algebra)
   - [Урок 1. Линейное пространство](https://github.com/AlekseyGur/Education/tree/master/Linear-algebra/lesson_1)
+  - [Урок 2. Матрицы и матричные операции](https://github.com/AlekseyGur/Education/tree/master/Linear-algebra/lesson_2)
 - [BigData. Фреймворк Apache Spark](https://github.com/AlekseyGur/Education/tree/master/Spark)
   - [Урок 2. Операции с данными: агрегаты, джойны. Оптимизация SQL-запросов](https://github.com/AlekseyGur/Education/tree/master/Spark/lesson_2)
   - [Урок 3. Типы данных в Spark. Коллекции как объекты DataFrame. User-Defined Functions](https://github.com/AlekseyGur/Education/tree/master/Spark/lesson_3)
