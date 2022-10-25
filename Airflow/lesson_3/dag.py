@@ -104,7 +104,7 @@ with DAG(
    
         create_hive_table_pivot = HiveOperator(
             task_id='create_hive_table_pivot',
-            hql='''CREATE TABLE IF NOT EXISTS titanic_mean_fares (Sex TEXT, Sex TEXT, 1 INT, 2 INT, 3 INT) 
+            hql='''CREATE TABLE IF NOT EXISTS titanic_mean_fares (Sex TEXT, class01 INT, class02 INT, class03 INT) 
                    ROW FORMAT DELIMITED
                    FIELDS TERMINATED BY ","
                    STORED AS TEXTFILE
