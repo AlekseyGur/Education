@@ -8,6 +8,7 @@ Examples of code for educational purposes and some small demo projects:
 - [Настройка потоков данных. Apache Airflow](https://github.com/AlekseyGur/Education/tree/master/Airflow)
   - [Урок 2. Установка Airflow. Создание и основные параметры DAG](https://github.com/AlekseyGur/Education/tree/master/Airflow/lesson_2)
   - [Урок 3. Разработка потоков данных](https://github.com/AlekseyGur/Education/tree/master/Airflow/lesson_3)
+  - [Урок 4. Airflow в production. Примеры реальных задач](https://github.com/AlekseyGur/Education/tree/master/Airflow/lesson_4)
 - [Линейная алгебра](https://github.com/AlekseyGur/Education/tree/master/Linear-algebra)
   - [Урок 1. Линейное пространство](https://github.com/AlekseyGur/Education/tree/master/Linear-algebra/lesson_1)
   - [Урок 2. Матрицы и матричные операции](https://github.com/AlekseyGur/Education/tree/master/Linear-algebra/lesson_2)
