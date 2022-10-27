@@ -22,8 +22,7 @@ SELECT
 FROM
     orders
 WHERE
-    -- o_date > DATE_SUB(CURDATE(), INTERVAL 30 DAY)
-    EXTRACT(year FROM o_date) = 2017
+    o_date > DATE_SUB(CURDATE(), INTERVAL 30 DAY)
 AND
     user_id IN ( 
         -- клиенты, которые сделали 3 и более покупок за 30 последних дней
@@ -32,8 +31,7 @@ AND
         FROM
             orders
         WHERE
-            -- o_date > DATE_SUB(CURDATE(), INTERVAL 30 DAY)
-            EXTRACT(year FROM o_date) = 2017
+            o_date > DATE_SUB(CURDATE(), INTERVAL 30 DAY)
         GROUP BY
             user_id
         HAVING 
@@ -73,8 +71,8 @@ WITH res AS (
         orders
     WHERE
         o_date < DATE_SUB(CURDATE(), INTERVAL 30 DAY)
-  --  AND
-   --     o_date > DATE_SUB(CURDATE(), INTERVAL 1 YEAR)
+    AND
+        o_date > DATE_SUB(CURDATE(), INTERVAL 1 YEAR)
     AND
         user_id IN ( 
             -- клиенты, которые сделали 3 и более покупок, но не за последние 30 дней
@@ -84,8 +82,8 @@ WITH res AS (
                 orders
             WHERE
                 o_date < DATE_SUB(CURDATE(), INTERVAL 30 DAY)
-            -- AND
-           --     o_date > DATE_SUB(CURDATE(), INTERVAL 1 YEAR)
+            AND
+                o_date > DATE_SUB(CURDATE(), INTERVAL 1 YEAR)
             GROUP BY
                 user_id
             HAVING 
