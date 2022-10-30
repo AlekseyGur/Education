@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Created-By: 0.0.1 (alexgur.ru Inc.)
+Main-Class: ru.alexgur.HelloWorld
