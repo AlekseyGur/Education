@@ -16,6 +16,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 2. Матрицы и матричные операции](https://github.com/AlekseyGur/Education/tree/master/Linear-algebra/lesson_2)
   - [Урок 3. Линейные преобразования](https://github.com/AlekseyGur/Education/tree/master/Linear-algebra/lesson_3)
   - [Урок 4. Системы линейных уравнений](https://github.com/AlekseyGur/Education/tree/master/Linear-algebra/lesson_4)
+  - [Урок 5. Сингулярное разложение матриц](https://github.com/AlekseyGur/Education/tree/master/Linear-algebra/lesson_5)
 - [BigData. Фреймворк Apache Spark](https://github.com/AlekseyGur/Education/tree/master/Spark)
   - [Урок 2. Операции с данными: агрегаты, джойны. Оптимизация SQL-запросов](https://github.com/AlekseyGur/Education/tree/master/Spark/lesson_2)
   - [Урок 3. Типы данных в Spark. Коллекции как объекты DataFrame. User-Defined Functions](https://github.com/AlekseyGur/Education/tree/master/Spark/lesson_3)
