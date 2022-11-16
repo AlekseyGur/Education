@@ -9,6 +9,7 @@
 Готовая обученная модель в файле "RandomForestRegressor.model"
 
 Train R2:	0.96
+
 Test R2:	0.742
 
 Публичный рейтинг предсказания на Kaggle: 0.73994
