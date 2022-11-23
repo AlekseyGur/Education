@@ -12,6 +12,8 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 3. Типовые методы анализа данных](https://github.com/AlekseyGur/Education/tree/master/DB-for-analytics/lesson_3)
   - [Урок 4. Типовая аналитика маркетинговой активности](https://github.com/AlekseyGur/Education/tree/master/DB-for-analytics/lesson_4)
   - [Урок 5. Системы web-аналитики](https://github.com/AlekseyGur/Education/tree/master/DB-for-analytics/lesson_5)
+  - [Урок 6. Хранилища данных для анализа](https://github.com/AlekseyGur/Education/tree/master/DB-for-analytics/lesson_6)
+  - [Урок 8. Прочие типовые структуры БД](https://github.com/AlekseyGur/Education/tree/master/DB-for-analytics/lesson_8)
 - [Настройка потоков данных. Apache Airflow](https://github.com/AlekseyGur/Education/tree/master/Airflow)
   - [Урок 2. Установка Airflow. Создание и основные параметры DAG](https://github.com/AlekseyGur/Education/tree/master/Airflow/lesson_2)
   - [Урок 3. Разработка потоков данных](https://github.com/AlekseyGur/Education/tree/master/Airflow/lesson_3)
