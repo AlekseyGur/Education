@@ -6,6 +6,7 @@ Examples of code for educational purposes and some small demo projects:
 - [Алгоритмы анализа данных](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms)
   - [Урок 1. Алгоритм линейной регрессии. Градиентный спуск](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms/lesson_1)
   - [Урок 2. Масштабирование признаков. L1- и L2-регуляризация. Стохастический градиентный спуск](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms/lesson_2)
+  - [Урок 3. Логистическая регрессия. Log Loss](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms/lesson_3)
 - [Базы данных для аналитиков](https://github.com/AlekseyGur/Education/tree/master/DB-for-analytics)
   - [Урок 1. Аналитика в бизнес-задачах](https://github.com/AlekseyGur/Education/tree/master/DB-for-analytics/lesson_1)
   - [Урок 2. Изучение характера поведения пользователей](https://github.com/AlekseyGur/Education/tree/master/DB-for-analytics/lesson_2)
