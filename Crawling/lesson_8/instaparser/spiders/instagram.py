@@ -77,7 +77,7 @@ class InstaSpider(scrapy.Spider):
                 cb_kwargs={
                     'username': username,
                     'user_id': user_id,
-                    'variables': deepcopy(variables)
+                    'variables': variables
                 }
             )
 
@@ -109,7 +109,7 @@ class InstaSpider(scrapy.Spider):
             cb_kwargs={
                 'username': username,
                 'user_id': user_id,
-                'variables': deepcopy(variables),
+                'variables': variables,
                 'followed_by': True
             }
         )
@@ -121,7 +121,7 @@ class InstaSpider(scrapy.Spider):
             cb_kwargs={
                 'username': username,
                 'user_id': user_id,
-                'variables': deepcopy(variables),
+                'variables': variables,
                 'followed_by': False
             }
         )
