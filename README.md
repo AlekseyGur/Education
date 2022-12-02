@@ -5,6 +5,7 @@ Examples of code for educational purposes and some small demo projects:
 
 - [Потоковая обработка данных](https://github.com/AlekseyGur/Education/tree/master/StreamProcessing)
   - [Урок 1. Spark Streaming. Тестовые стримы, чтение файлов в реальном времени](https://github.com/AlekseyGur/Education/tree/master/StreamProcessing/lesson_1)
+  - [Урок 2. Kafka. Архитектура](https://github.com/AlekseyGur/Education/tree/master/StreamProcessing/lesson_2)
 - [Алгоритмы анализа данных](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms)
   - [Урок 1. Алгоритм линейной регрессии. Градиентный спуск](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms/lesson_1)
   - [Урок 2. Масштабирование признаков. L1- и L2-регуляризация. Стохастический градиентный спуск](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms/lesson_2)
