@@ -3,9 +3,11 @@
 Examples of code for educational purposes and some small demo projects:
 
 
-- [Потоковая обработка данных](https://github.com/AlekseyGur/Education/tree/master/StreamProcessing)
-  - [Урок 1. Spark Streaming. Тестовые стримы, чтение файлов в реальном времени](https://github.com/AlekseyGur/Education/tree/master/StreamProcessing/lesson_1)
-  - [Урок 2. Kafka. Архитектура](https://github.com/AlekseyGur/Education/tree/master/StreamProcessing/lesson_2)
+- [Потоковая обработка данных](https://github.com/AlekseyGur/Education/tree/master/Stream-processing) для выполнения ДЗ был сделан контейнер [hdfs+kafka+spark+zookeeper+jupyterlab](https://hub.docker.com/r/alekseygur/hskj/)
+  - [Урок 1. Spark Streaming. Тестовые стримы, чтение файлов в реальном времени](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_1)
+  - [Урок 2. Kafka. Архитектура](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_2)
+  - [Урок 3. Spark Streaming. Чтение Kafka](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_3)
+  - [Урок 4. Spark Streaming. Sinks](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_4)
 - [Алгоритмы анализа данных](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms)
   - [Урок 1. Алгоритм линейной регрессии. Градиентный спуск](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms/lesson_1)
   - [Урок 2. Масштабирование признаков. L1- и L2-регуляризация. Стохастический градиентный спуск](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms/lesson_2)
