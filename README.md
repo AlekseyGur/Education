@@ -3,7 +3,7 @@
 Examples of code for educational purposes and some small demo projects:
 
 
-- [Потоковая обработка данных](https://github.com/AlekseyGur/Education/tree/master/Stream-processing) для выполнения ДЗ был сделан контейнер [hdfs+kafka+spark+zookeeper+jupyterlab](https://hub.docker.com/r/alekseygur/hskj/)
+- [Потоковая обработка данных](https://github.com/AlekseyGur/Education/tree/master/Stream-processing) для выполнения ДЗ был сделан контейнер [![Docker Pulls](https://badgen.net/docker/pulls/alekseygur/hskj?icon=docker&label=pulls)](https://hub.docker.com/r/alekseygur/hskj/)
   - [Урок 1. Spark Streaming. Тестовые стримы, чтение файлов в реальном времени](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_1)
   - [Урок 2. Kafka. Архитектура](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_2)
   - [Урок 3. Spark Streaming. Чтение Kafka](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_3)
