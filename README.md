@@ -10,6 +10,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 4. Spark Streaming. Sinks](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_4)
   - [Урок 5. Spark Streaming. Stateful streams](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_5)
   - [Урок 6. Lambda архитектура. Spark Streaming + Cassandra](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_6)
+  - [Урок 7. Spark ML. Аналитика признаков в пакетном режиме. Подготовка, обучение ML-модели](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_7)
 - [Алгоритмы анализа данных](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms)
   - [Урок 1. Алгоритм линейной регрессии. Градиентный спуск](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms/lesson_1)
   - [Урок 2. Масштабирование признаков. L1- и L2-регуляризация. Стохастический градиентный спуск](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms/lesson_2)
