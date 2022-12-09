@@ -54,6 +54,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 4. Hive & HUE](https://github.com/AlekseyGur/Education/tree/master/Hadoop/lesson_4)
   - [Урок 5. Форматы хранения](https://github.com/AlekseyGur/Education/tree/master/Hadoop/lesson_5)
   - [Урок 6. ETL](https://github.com/AlekseyGur/Education/tree/master/Hadoop/lesson_6)
+  - [Урок 8. Хранилища данных](https://github.com/AlekseyGur/Education/tree/master/Hadoop/lesson_8)
 - [Теория вероятностей и математическая статистика](https://github.com/AlekseyGur/Education/tree/master/Statistics)
   - [Урок 1. Случайные события. Условная вероятность. Формула Байеса. Независимые испытания](https://github.com/AlekseyGur/Education/tree/master/Statistics/lesson_1)
   - [Урок 2. Дискретные случайные величины. Закон распределения вероятностей. Биномиальный закон распределения. Распределение Пуассона](https://github.com/AlekseyGur/Education/tree/master/Statistics/lesson_2)
