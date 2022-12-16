@@ -20,6 +20,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 5. Случайный лес](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms/lesson_5)
   - [Урок 6. Градиентный бустинг (AdaBoost)](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms/lesson_6)
   - [Урок 7. Классификация с помощью KNN. Кластеризация K-means](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms/lesson_7)
+  - [Урок 8. Снижение размерности данных](https://github.com/AlekseyGur/Education/tree/master/Data-analysis-algorithms/lesson_8)
 - [Базы данных для аналитиков](https://github.com/AlekseyGur/Education/tree/master/DB-for-analytics)
   - [Урок 1. Аналитика в бизнес-задачах](https://github.com/AlekseyGur/Education/tree/master/DB-for-analytics/lesson_1)
   - [Урок 2. Изучение характера поведения пользователей](https://github.com/AlekseyGur/Education/tree/master/DB-for-analytics/lesson_2)
