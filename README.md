@@ -2,7 +2,8 @@
 
 Examples of code for educational purposes and some small demo projects:
 
-
+- [Машинное обучение в бизнесе](https://github.com/AlekseyGur/Education/tree/master/ML-business)
+  - [Урок 1. Data-driven-подход на примере задачи маршрутизации заявок в helpdesk](https://github.com/AlekseyGur/Education/tree/master/ML-business/lesson_1)
 - [Потоковая обработка данных](https://github.com/AlekseyGur/Education/tree/master/Stream-processing) для выполнения ДЗ был сделан контейнер [![Docker Pulls](https://badgen.net/docker/pulls/alekseygur/hskj?icon=docker&label=pulls)](https://hub.docker.com/r/alekseygur/hskj/)
   - [Урок 1. Spark Streaming. Тестовые стримы, чтение файлов в реальном времени](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_1)
   - [Урок 2. Kafka. Архитектура](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_2)
@@ -97,6 +98,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Plant pathology 2021 - определение заболеваний деревьев по изображениям листьев](https://github.com/AlekseyGur/Education/tree/master/Kaggle/plant-pathology-2021)
   - [IH Hotel Booking - предсказание отмены бронирования номеров в отеле](https://github.com/AlekseyGur/Education/tree/master/Kaggle/ih-hotel-booking)
   - [Titanic - Machine Learning from Disaster - предсказание смерти на Титанике](https://github.com/AlekseyGur/Education/tree/master/Kaggle/titanic)
+  - [Detect toxic content - определение токсичности комментариев в соцсети](https://github.com/AlekseyGur/Education/tree/master/Kaggle/toxic-comments)
 - [Методы сбора и обработки данных](https://github.com/AlekseyGur/Education/tree/master/Crawling)
   - [Урок 1. Основы клиент-серверного взаимодействия. Работа с API](https://github.com/AlekseyGur/Education/tree/master/Crawling/lesson_1)
   - [Урок 2. Парсинг HTML. Библиотека Beautiful soup](https://github.com/AlekseyGur/Education/tree/master/Crawling/lesson_2)
