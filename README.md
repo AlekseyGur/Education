@@ -5,6 +5,7 @@ Examples of code for educational purposes and some small demo projects:
 - [Машинное обучение в бизнесе](https://github.com/AlekseyGur/Education/tree/master/ML-business)
   - [Урок 1. Data-driven-подход на примере задачи маршрутизации заявок в helpdesk](https://github.com/AlekseyGur/Education/tree/master/ML-business/lesson_1)
   - [Урок 2. Профилирование пользователей. Сегментация: unsupervised learning (clustering, LDA/ARTM), supervised (multi/binary classification)](https://github.com/AlekseyGur/Education/tree/master/ML-business/lesson_2)
+  - [Урок 3. Связь бизнес-показателей и DS-метрик](https://github.com/AlekseyGur/Education/tree/master/ML-business/lesson_3)
 - [Потоковая обработка данных](https://github.com/AlekseyGur/Education/tree/master/Stream-processing) для выполнения ДЗ был сделан контейнер [![Docker Pulls](https://badgen.net/docker/pulls/alekseygur/hskj?icon=docker&label=pulls)](https://hub.docker.com/r/alekseygur/hskj/)
   - [Урок 1. Spark Streaming. Тестовые стримы, чтение файлов в реальном времени](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_1)
   - [Урок 2. Kafka. Архитектура](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_2)
