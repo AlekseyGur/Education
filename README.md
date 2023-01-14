@@ -13,6 +13,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 5. Задача оттока: варианты постановки, возможные способы решения](https://github.com/AlekseyGur/Education/tree/master/ML-business/lesson_5)
   - [Урок 6. Задача lookalike (Positive Unlabeled Learning)](https://github.com/AlekseyGur/Education/tree/master/ML-business/lesson_6)
   - [Урок 7. Интерпретация прогнозов модели (SHAP) - объясняем поведение модели на отдельных наблюдениях)](https://github.com/AlekseyGur/Education/tree/master/ML-business/lesson_7)
+  - [Урок 8. Проверяем работу модели на практике: A/B-тестирование](https://github.com/AlekseyGur/Education/tree/master/ML-business/lesson_8)
 - [Потоковая обработка данных](https://github.com/AlekseyGur/Education/tree/master/Stream-processing) для выполнения ДЗ был сделан контейнер [![Docker Pulls](https://badgen.net/docker/pulls/alekseygur/hskj?icon=docker&label=pulls)](https://hub.docker.com/r/alekseygur/hskj/)
   - [Урок 1. Spark Streaming. Тестовые стримы, чтение файлов в реальном времени](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_1)
   - [Урок 2. Kafka. Архитектура](https://github.com/AlekseyGur/Education/tree/master/Stream-processing/lesson_2)
