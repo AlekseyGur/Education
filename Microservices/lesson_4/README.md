@@ -38,25 +38,35 @@ https://github.com/adterskov/geekbrains-conteinerization/tree/master/homework/4.
 
 1. Узнайте IP пода postgresql
 
+```bash
 kubectl get pod -o wide
+```
 
 2. Запустите рядом тестовый под
 
+```bash
 kubectl run -t -i --rm --image postgres:10.13 test bash
+```
 
 3. Внутри тестового пода выполните команду для подключения к БД
 
+```bash
 psql -h <postgresql pod IP из п.1> -U testuser testdatabase
+```
 
 Введите пароль - testpassword
 
 4. Все в том же тестовом поде, после подключения к инстансу БД выполните команду для создания таблицы
 
+```bash
 CREATE TABLE testtable (testcolumn VARCHAR (50) );
+```
 
 5. Проверьте что таблица создалась. Для этого все в том же тестовом поде выполните команду
 
+```bash
 \dt
+```
 
 6. Выйдите из тестового пода. Попробуйте удалить под с postgresql.
 
