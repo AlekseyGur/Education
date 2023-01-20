@@ -5,6 +5,7 @@ Examples of code for educational purposes and some small demo projects:
 - [Микросервисная архитектура и контейнеризация](https://github.com/AlekseyGur/Education/tree/master/Microservices)
   - [Урок 2. Docker](https://github.com/AlekseyGur/Education/tree/master/Microservices/lesson_2)
   - [Урок 3. Введение в Kubernetes](https://github.com/AlekseyGur/Education/tree/master/Microservices/lesson_3)
+  - [Урок 4. Хранение данных и ресурсы](https://github.com/AlekseyGur/Education/tree/master/Microservices/lesson_4)
 - [Машинное обучение в бизнесе](https://github.com/AlekseyGur/Education/tree/master/ML-business)
   - [Урок 1. Data-driven-подход на примере задачи маршрутизации заявок в helpdesk](https://github.com/AlekseyGur/Education/tree/master/ML-business/lesson_1)
   - [Урок 2. Профилирование пользователей. Сегментация: unsupervised learning (clustering, LDA/ARTM), supervised (multi/binary classification)](https://github.com/AlekseyGur/Education/tree/master/ML-business/lesson_2)
