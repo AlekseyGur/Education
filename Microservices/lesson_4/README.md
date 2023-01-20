@@ -107,7 +107,6 @@ CREATE TABLE testtable (testcolumn VARCHAR (50) );
 Вывод:
 
 ```sql
-testdatabase=# \dt
            List of relations
  Schema |   Name    | Type  |  Owner
 --------+-----------+-------+----------
@@ -126,7 +125,6 @@ psql -h 172.17.0.5 -U testuser testdatabase # Пароль testpassword
 Вывод:
 
 ```sql
-testdatabase=# \dt
            List of relations
  Schema |   Name    | Type  |  Owner
 --------+-----------+-------+----------
