@@ -68,26 +68,43 @@ CREATE TABLE testtable (testcolumn VARCHAR (50) );
 
 См. файлы yaml в папке.
 
-# устанавливаем пароль в переменную
-kubectl create secret generic postgres -n postgres --from-literal=postgre-pass=testpassword
+Устанавливаем пароль в переменную
 
-# загружаем все yaml сценарии
+```bash
+kubectl create secret generic postgres -n postgres --from-literal=postgre-pass=testpassword
+```
+
+Загружаем все yaml сценарии
+
+```bash
 kubectl create -f ./scripts
 
-# Создаём папку в нужной ноде, куда будут записываться данные базы.
-# Так как в проекте пока есть только одна нода minikube, то писать будем прямо туда, в контейнер.
-# Но по уму надо бы подключить внешнее хранилище!
+Создаём папку в нужной ноде, куда будут записываться данные базы.
+Так как в проекте пока есть только одна нода minikube, то писать будем прямо туда, в контейнер.
+Но по уму надо бы подключить внешнее хранилище!
+
+```bash
 docker exec -it -u root minikube mkdir -p /mnt/local-storage
+```
 
-# Получаем ip контейнера с postgre:
-pod_ip=$(kubectl get pod -o wide -n postgres | grep postgre | awk '{print $6}' | tr -d '\n')
-# 172.17.0.5
+Получаем ip контейнера с postgre:
 
-# запускаем тестовый под:
+```bash
+kubectl get pod -o wide -n postgres | grep postgre | awk '{print $6}'
+```
+
+172.17.0.5
+
+Запускаем тестовый под:
+
+```bash
 kubectl run -t -i --rm --image postgres:10.13 test bash
 psql -h 172.17.0.5 -U testuser testdatabase # Пароль testpassword
 CREATE TABLE testtable (testcolumn VARCHAR (50) );
 \dt
+```
+
+Вывод:
 
 ```sql
 testdatabase=# \dt
@@ -98,7 +115,24 @@ testdatabase=# \dt
 (1 row)
 ```
 
+Выходим и вопторяем шаги без создания таблицы:
 
+```bash
+kubectl run -t -i --rm --image postgres:10.13 test bash
+psql -h 172.17.0.5 -U testuser testdatabase # Пароль testpassword
+\dt
+```
+
+Вывод:
+
+```sql
+testdatabase=# \dt
+           List of relations
+ Schema |   Name    | Type  |  Owner
+--------+-----------+-------+----------
+ public | testtable | table | testuser
+(1 row)
+```
 
 
 
