@@ -2,6 +2,10 @@
 
 Examples of code for educational purposes and some small demo projects:
 
+- [Рекомендательные системы](https://github.com/AlekseyGur/Education/tree/master/Recom-system)
+  - [Урок 1. Введение, примеры задач, бизнес- и ML-метрики](https://github.com/AlekseyGur/Education/tree/master/Recom-system/lesson_1)
+- [Библиотеки Python для Data Science: продолжение](https://github.com/AlekseyGur/Education/tree/master/DataScience-tools-2)
+  - [Урок 1. Введение в задачу классификации. Постановка задачи и подготовка данных](https://github.com/AlekseyGur/Education/tree/master/DataScience-tools-2/lesson_1)
 - [Микросервисная архитектура и контейнеризация](https://github.com/AlekseyGur/Education/tree/master/Microservices)
   - [Урок 2. Docker](https://github.com/AlekseyGur/Education/tree/master/Microservices/lesson_2)
   - [Урок 3. Введение в Kubernetes](https://github.com/AlekseyGur/Education/tree/master/Microservices/lesson_3)
