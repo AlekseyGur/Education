@@ -7,6 +7,7 @@ Examples of code for educational purposes and some small demo projects:
 - [Библиотеки Python для Data Science: продолжение](https://github.com/AlekseyGur/Education/tree/master/DataScience-tools-2)
   - [Урок 1. Введение в задачу классификации. Постановка задачи и подготовка данных](https://github.com/AlekseyGur/Education/tree/master/DataScience-tools-2/lesson_1)
   - [Урок 2. Анализ данных и проверка статистических гипотез](https://github.com/AlekseyGur/Education/tree/master/DataScience-tools-2/lesson_2)
+  - [Урок 3. Построение модели классификации](https://github.com/AlekseyGur/Education/tree/master/DataScience-tools-2/lesson_3)
 - [Микросервисная архитектура и контейнеризация](https://github.com/AlekseyGur/Education/tree/master/Microservices)
   - [Урок 2. Docker](https://github.com/AlekseyGur/Education/tree/master/Microservices/lesson_2)
   - [Урок 3. Введение в Kubernetes](https://github.com/AlekseyGur/Education/tree/master/Microservices/lesson_3)
