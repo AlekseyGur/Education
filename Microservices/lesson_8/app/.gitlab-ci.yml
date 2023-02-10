@@ -38,6 +38,7 @@ build:
     - kubectl config use-context ci
   script:
     - sed -i "s,__IMAGE__,$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG.$CI_PIPELINE_ID,g" kube/deployment.yaml
+    - sed -i "s,__HOST__,$CI_ENVIRONMENT_NAME,g" kube/ingress.yaml
     - kubectl apply -f kube/ --namespace $CI_ENVIRONMENT_NAME
     - kubectl rollout status deployment/$CI_PROJECT_NAME --namespace $CI_ENVIRONMENT_NAME || (kubectl rollout undo deployment/$CI_PROJECT_NAME --namespace $CI_ENVIRONMENT_NAME && exit 1)
 
