@@ -2,21 +2,21 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: lesson8DB
+  name: database
 spec:
   replicas: 1
-  serviceName: lesson8DB
+  serviceName: database
   selector:
     matchLabels:
-      app: lesson8DB
+      app: database
   template:
     metadata:
       labels:
-        app: lesson8DB
+        app: database
     spec:
       containers:
-        - image: postgres:10.1
-          name: lesson8DB
+        - image: postgres:10.13
+          name: postgres
           env:
             - name: POSTGRES_USER
               value: app
@@ -43,4 +43,4 @@ spec:
         resources:
           requests:
             storage: 2Gi
-        storageClassName: msk-hdd1
+        storageClassName: csi-ceph-hdd-ms1

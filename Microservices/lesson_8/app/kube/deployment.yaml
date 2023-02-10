@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: lesson8
+  name: geekbrains
 spec:
   progressDeadlineSeconds: 300
   replicas: 2
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: nginx:1.19
+          image: __IMAGE__
           env:
             - name: DB_HOST
               value: database
