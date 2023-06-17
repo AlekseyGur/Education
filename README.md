@@ -4,6 +4,7 @@ Examples of code for educational purposes and some small demo projects:
 
 - [Введение в нейронные сети](https://github.com/AlekseyGur/Education/tree/master/Neural-networks)
   - [Урок 1. Основы обучения нейронных сетей](https://github.com/AlekseyGur/Education/tree/master/Neural-networks/lesson_1)
+  - [Урок 2. Keras](https://github.com/AlekseyGur/Education/tree/master/Neural-networks/lesson_2)
 - [Рекомендательные системы](https://github.com/AlekseyGur/Education/tree/master/Recom-system)
   - [Урок 1. Введение, примеры задач, бизнес- и ML-метрики](https://github.com/AlekseyGur/Education/tree/master/Recom-system/lesson_1)
   - [Урок 2. Бейзлайны и детерминированные алгоритмы item-item](https://github.com/AlekseyGur/Education/tree/master/Recom-system/lesson_2)
