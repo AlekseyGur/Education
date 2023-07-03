@@ -13,6 +13,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 2. Бейзлайны и детерминированные алгоритмы item-item](https://github.com/AlekseyGur/Education/tree/master/Recom-system/lesson_2)
   - [Урок 3. Коллаборативная фильтрация](https://github.com/AlekseyGur/Education/tree/master/Recom-system/lesson_3)
   - [Урок 4. Рекомендательные системы на основе контента](https://github.com/AlekseyGur/Education/tree/master/Recom-system/lesson_4)
+  - [Урок 8. Итоговый проект](https://github.com/AlekseyGur/Education/tree/master/Recom-system/final)
 - [Библиотеки Python для Data Science: продолжение](https://github.com/AlekseyGur/Education/tree/master/DataScience-tools-2)
   - [Урок 1. Введение в задачу классификации. Постановка задачи и подготовка данных](https://github.com/AlekseyGur/Education/tree/master/DataScience-tools-2/lesson_1)
   - [Урок 2. Анализ данных и проверка статистических гипотез](https://github.com/AlekseyGur/Education/tree/master/DataScience-tools-2/lesson_2)
