@@ -4,6 +4,7 @@ Examples of code for educational purposes and some small demo projects:
 
 - [Фреймворк PyTorch для разработки искусственных нейронных сетей](https://github.com/AlekseyGur/Education/tree/master/PyTorch)
   - [Урок 1. Основные понятия и структуры PyTorch](https://github.com/AlekseyGur/Education/tree/master/PyTorch/lesson_1)
+  - [Урок 2. Feed-forward neural network](https://github.com/AlekseyGur/Education/tree/master/PyTorch/lesson_2)
 - [Введение в нейронные сети](https://github.com/AlekseyGur/Education/tree/master/Neural-networks)
   - [Урок 1. Основы обучения нейронных сетей](https://github.com/AlekseyGur/Education/tree/master/Neural-networks/lesson_1)
   - [Урок 2. Keras](https://github.com/AlekseyGur/Education/tree/master/Neural-networks/lesson_2)
