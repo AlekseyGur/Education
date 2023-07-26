@@ -7,6 +7,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 2. Feed-forward neural network](https://github.com/AlekseyGur/Education/tree/master/PyTorch/lesson_2)
   - [Урок 3. Dataset, Dataloader, BatchNorm, Dropout, Оптимизация](https://github.com/AlekseyGur/Education/tree/master/PyTorch/lesson_3)
   - [Урок 4. CNN Свертки](https://github.com/AlekseyGur/Education/tree/master/PyTorch/lesson_4)
+  - [Урок 5. Сегментация изображений](https://github.com/AlekseyGur/Education/tree/master/PyTorch/lesson_5)
 - [Введение в нейронные сети](https://github.com/AlekseyGur/Education/tree/master/Neural-networks)
   - [Урок 1. Основы обучения нейронных сетей](https://github.com/AlekseyGur/Education/tree/master/Neural-networks/lesson_1)
   - [Урок 2. Keras](https://github.com/AlekseyGur/Education/tree/master/Neural-networks/lesson_2)
