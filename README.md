@@ -9,6 +9,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 4. CNN Свертки](https://github.com/AlekseyGur/Education/tree/master/PyTorch/lesson_4)
   - [Урок 5. Сегментация изображений](https://github.com/AlekseyGur/Education/tree/master/PyTorch/lesson_5)
   - [Урок 6. Нейросети в обработке текста](https://github.com/AlekseyGur/Education/tree/master/PyTorch/lesson_6)
+  - [Урок 7. Рекурентные сети для обработки последовательностей](https://github.com/AlekseyGur/Education/tree/master/PyTorch/lesson_7)
 - [Введение в нейронные сети](https://github.com/AlekseyGur/Education/tree/master/Neural-networks)
   - [Урок 1. Основы обучения нейронных сетей](https://github.com/AlekseyGur/Education/tree/master/Neural-networks/lesson_1)
   - [Урок 2. Keras](https://github.com/AlekseyGur/Education/tree/master/Neural-networks/lesson_2)
