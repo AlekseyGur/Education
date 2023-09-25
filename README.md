@@ -4,6 +4,7 @@ Examples of code for educational purposes and some small demo projects:
 
 - [Введение в обработку естественного языка](https://github.com/AlekseyGur/Education/tree/master/Language-processing)
   - [Урок 3. Embedding word2vec fasttext](https://github.com/AlekseyGur/Education/tree/master/Language-processing/lesson_3)
+  - [Урок 4. Тематическое моделирование. EM-алгоритм](https://github.com/AlekseyGur/Education/tree/master/Language-processing/lesson_4)
 - [Фреймворк PyTorch для разработки искусственных нейронных сетей](https://github.com/AlekseyGur/Education/tree/master/PyTorch)
   - [Урок 1. Основные понятия и структуры PyTorch](https://github.com/AlekseyGur/Education/tree/master/PyTorch/lesson_1)
   - [Урок 2. Feed-forward neural network](https://github.com/AlekseyGur/Education/tree/master/PyTorch/lesson_2)
