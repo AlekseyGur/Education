@@ -9,6 +9,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 6. Классификация текста. Анализ тональности текста](https://github.com/AlekseyGur/Education/tree/master/Language-processing/lesson_6)
   - [Урок 7. Сверточные нейронные сети для анализа текста](https://github.com/AlekseyGur/Education/tree/master/Language-processing/lesson_7)
   - [Урок 8. Рекуррентные нейронные сети RNN LSTM GRU](https://github.com/AlekseyGur/Education/tree/master/Language-processing/lesson_8)
+  - [Урок 9. Языковое моделирование](https://github.com/AlekseyGur/Education/tree/master/Language-processing/lesson_9)
 - [Фреймворк PyTorch для разработки искусственных нейронных сетей](https://github.com/AlekseyGur/Education/tree/master/PyTorch)
   - [Урок 1. Основные понятия и структуры PyTorch](https://github.com/AlekseyGur/Education/tree/master/PyTorch/lesson_1)
   - [Урок 2. Feed-forward neural network](https://github.com/AlekseyGur/Education/tree/master/PyTorch/lesson_2)
