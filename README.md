@@ -2,6 +2,7 @@
 
 Examples of code for educational purposes and some small demo projects:
 
+- [Финальный проект на факультете "Аналитик Big Data"](https://github.com/AlekseyGur/Education/tree/master/Faculty-analysis-big-data)
 - [Введение в обработку естественного языка](https://github.com/AlekseyGur/Education/tree/master/Language-processing)
   - [Урок 3. Embedding word2vec fasttext](https://github.com/AlekseyGur/Education/tree/master/Language-processing/lesson_3)
   - [Урок 4. Тематическое моделирование. EM-алгоритм](https://github.com/AlekseyGur/Education/tree/master/Language-processing/lesson_4)
