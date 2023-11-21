@@ -15,6 +15,7 @@ Examples of code for educational purposes and some small demo projects:
   - [Урок 11. Модель Transformer-1](https://github.com/AlekseyGur/Education/tree/master/Language-processing/lesson_11)
   - [Урок 12. Модель Transformer-2](https://github.com/AlekseyGur/Education/tree/master/Language-processing/lesson_12)
   - [Урок 13. Модель BERT и GPT](https://github.com/AlekseyGur/Education/tree/master/Language-processing/lesson_13)
+  - [Урок 14. Transfer learning](https://github.com/AlekseyGur/Education/tree/master/Language-processing/lesson_14)
 - [Фреймворк PyTorch для разработки искусственных нейронных сетей](https://github.com/AlekseyGur/Education/tree/master/PyTorch)
   - [Урок 1. Основные понятия и структуры PyTorch](https://github.com/AlekseyGur/Education/tree/master/PyTorch/lesson_1)
   - [Урок 2. Feed-forward neural network](https://github.com/AlekseyGur/Education/tree/master/PyTorch/lesson_2)
